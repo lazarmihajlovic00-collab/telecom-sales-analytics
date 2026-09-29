@@ -1,0 +1,4 @@
+,MAE,MAPE,RMSE,bias
+Seasonal naive,26.167,0.071,30.301,-8.5
+Trend x seasonal index,21.202,0.062,27.546,17.928
+Holt-Winters (additive),16.415,0.047,21.506,-1.594

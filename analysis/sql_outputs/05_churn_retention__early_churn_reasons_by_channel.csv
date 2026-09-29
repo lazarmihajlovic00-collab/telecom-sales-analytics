@@ -1,0 +1,15 @@
+channel,churn_reason,n,share
+Business Development,Installation/early service issues,7,0.368
+Business Development,Found cheaper offer,6,0.316
+Business Development,Service not as expected,4,0.211
+Business Development,Moving home,2,0.105
+Field Sales,Did not understand contract terms,89,0.31
+Field Sales,Service not as expected,62,0.216
+Field Sales,Found cheaper offer,50,0.174
+Field Sales,Moving home,45,0.157
+Field Sales,Installation/early service issues,41,0.143
+Telesales,Service not as expected,85,0.336
+Telesales,Installation/early service issues,78,0.308
+Telesales,Moving home,44,0.174
+Telesales,Did not understand contract terms,23,0.091
+Telesales,Found cheaper offer,23,0.091

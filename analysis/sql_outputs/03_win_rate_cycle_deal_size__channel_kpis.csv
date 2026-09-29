@@ -1,0 +1,8 @@
+lead_source,closed_opps,orders,win_rate,avg_mrr_per_order,avg_tcv_per_order,avg_discount_pct,median_cycle_days
+Door-to-Door,7119,3182,0.447,33.13,676.0,9.9,1.0
+Web,8627,2926,0.339,33.26,683.0,3.5,5.0
+Inbound Call,5167,2188,0.423,33.39,691.0,4.2,3.0
+Referral,2110,1158,0.549,33.96,690.0,1.9,4.0
+Outbound Call,3878,842,0.217,31.54,645.0,6.9,8.0
+Partner,869,304,0.35,75.96,2236.0,7.4,26.0
+Web (Business),834,261,0.313,73.2,2197.0,7.9,21.0

@@ -1,0 +1,837 @@
+rep_id,month,quota_mrr_gbp,rep_name,team,channel
+R001,2024-01,750.0,Chloe N.,Telesales Inbound,Telesales
+R001,2024-02,750.0,Chloe N.,Telesales Inbound,Telesales
+R001,2024-03,750.0,Chloe N.,Telesales Inbound,Telesales
+R001,2024-04,750.0,Chloe N.,Telesales Inbound,Telesales
+R001,2024-05,750.0,Chloe N.,Telesales Inbound,Telesales
+R001,2024-06,750.0,Chloe N.,Telesales Inbound,Telesales
+R001,2024-07,750.0,Chloe N.,Telesales Inbound,Telesales
+R001,2024-08,750.0,Chloe N.,Telesales Inbound,Telesales
+R001,2024-09,750.0,Chloe N.,Telesales Inbound,Telesales
+R001,2024-10,750.0,Chloe N.,Telesales Inbound,Telesales
+R001,2024-11,750.0,Chloe N.,Telesales Inbound,Telesales
+R001,2024-12,750.0,Chloe N.,Telesales Inbound,Telesales
+R001,2025-01,795.0,Chloe N.,Telesales Inbound,Telesales
+R001,2025-02,795.0,Chloe N.,Telesales Inbound,Telesales
+R001,2025-03,795.0,Chloe N.,Telesales Inbound,Telesales
+R001,2025-04,795.0,Chloe N.,Telesales Inbound,Telesales
+R001,2025-05,795.0,Chloe N.,Telesales Inbound,Telesales
+R001,2025-06,795.0,Chloe N.,Telesales Inbound,Telesales
+R001,2025-07,795.0,Chloe N.,Telesales Inbound,Telesales
+R001,2025-08,795.0,Chloe N.,Telesales Inbound,Telesales
+R001,2025-09,795.0,Chloe N.,Telesales Inbound,Telesales
+R001,2025-10,795.0,Chloe N.,Telesales Inbound,Telesales
+R001,2025-11,795.0,Chloe N.,Telesales Inbound,Telesales
+R001,2025-12,795.0,Chloe N.,Telesales Inbound,Telesales
+R001,2026-01,862.0,Chloe N.,Telesales Inbound,Telesales
+R001,2026-02,862.0,Chloe N.,Telesales Inbound,Telesales
+R001,2026-03,862.0,Chloe N.,Telesales Inbound,Telesales
+R001,2026-04,862.0,Chloe N.,Telesales Inbound,Telesales
+R001,2026-05,862.0,Chloe N.,Telesales Inbound,Telesales
+R001,2026-06,862.0,Chloe N.,Telesales Inbound,Telesales
+R001,2026-07,862.0,Chloe N.,Telesales Inbound,Telesales
+R001,2026-08,862.0,Chloe N.,Telesales Inbound,Telesales
+R002,2024-01,750.0,William C.,Telesales Inbound,Telesales
+R002,2024-02,750.0,William C.,Telesales Inbound,Telesales
+R002,2024-03,750.0,William C.,Telesales Inbound,Telesales
+R002,2024-04,750.0,William C.,Telesales Inbound,Telesales
+R002,2024-05,750.0,William C.,Telesales Inbound,Telesales
+R002,2024-06,750.0,William C.,Telesales Inbound,Telesales
+R002,2024-07,750.0,William C.,Telesales Inbound,Telesales
+R002,2024-08,750.0,William C.,Telesales Inbound,Telesales
+R002,2024-09,25.0,William C.,Telesales Inbound,Telesales
+R003,2024-01,750.0,Thomas F.,Telesales Inbound,Telesales
+R003,2024-02,750.0,Thomas F.,Telesales Inbound,Telesales
+R003,2024-03,750.0,Thomas F.,Telesales Inbound,Telesales
+R003,2024-04,750.0,Thomas F.,Telesales Inbound,Telesales
+R003,2024-05,750.0,Thomas F.,Telesales Inbound,Telesales
+R003,2024-06,750.0,Thomas F.,Telesales Inbound,Telesales
+R003,2024-07,750.0,Thomas F.,Telesales Inbound,Telesales
+R003,2024-08,750.0,Thomas F.,Telesales Inbound,Telesales
+R003,2024-09,750.0,Thomas F.,Telesales Inbound,Telesales
+R003,2024-10,750.0,Thomas F.,Telesales Inbound,Telesales
+R003,2024-11,750.0,Thomas F.,Telesales Inbound,Telesales
+R003,2024-12,750.0,Thomas F.,Telesales Inbound,Telesales
+R003,2025-01,795.0,Thomas F.,Telesales Inbound,Telesales
+R003,2025-02,795.0,Thomas F.,Telesales Inbound,Telesales
+R003,2025-03,795.0,Thomas F.,Telesales Inbound,Telesales
+R003,2025-04,795.0,Thomas F.,Telesales Inbound,Telesales
+R003,2025-05,795.0,Thomas F.,Telesales Inbound,Telesales
+R003,2025-06,795.0,Thomas F.,Telesales Inbound,Telesales
+R003,2025-07,795.0,Thomas F.,Telesales Inbound,Telesales
+R003,2025-08,795.0,Thomas F.,Telesales Inbound,Telesales
+R003,2025-09,795.0,Thomas F.,Telesales Inbound,Telesales
+R003,2025-10,795.0,Thomas F.,Telesales Inbound,Telesales
+R003,2025-11,795.0,Thomas F.,Telesales Inbound,Telesales
+R003,2025-12,795.0,Thomas F.,Telesales Inbound,Telesales
+R003,2026-01,862.0,Thomas F.,Telesales Inbound,Telesales
+R003,2026-02,862.0,Thomas F.,Telesales Inbound,Telesales
+R003,2026-03,862.0,Thomas F.,Telesales Inbound,Telesales
+R003,2026-04,862.0,Thomas F.,Telesales Inbound,Telesales
+R003,2026-05,862.0,Thomas F.,Telesales Inbound,Telesales
+R003,2026-06,862.0,Thomas F.,Telesales Inbound,Telesales
+R003,2026-07,862.0,Thomas F.,Telesales Inbound,Telesales
+R003,2026-08,862.0,Thomas F.,Telesales Inbound,Telesales
+R004,2024-01,750.0,Noah R.,Telesales Inbound,Telesales
+R004,2024-02,750.0,Noah R.,Telesales Inbound,Telesales
+R004,2024-03,750.0,Noah R.,Telesales Inbound,Telesales
+R004,2024-04,750.0,Noah R.,Telesales Inbound,Telesales
+R004,2024-05,750.0,Noah R.,Telesales Inbound,Telesales
+R004,2024-06,750.0,Noah R.,Telesales Inbound,Telesales
+R004,2024-07,750.0,Noah R.,Telesales Inbound,Telesales
+R004,2024-08,750.0,Noah R.,Telesales Inbound,Telesales
+R004,2024-09,750.0,Noah R.,Telesales Inbound,Telesales
+R004,2024-10,750.0,Noah R.,Telesales Inbound,Telesales
+R004,2024-11,750.0,Noah R.,Telesales Inbound,Telesales
+R004,2024-12,750.0,Noah R.,Telesales Inbound,Telesales
+R004,2025-01,795.0,Noah R.,Telesales Inbound,Telesales
+R004,2025-02,795.0,Noah R.,Telesales Inbound,Telesales
+R004,2025-03,795.0,Noah R.,Telesales Inbound,Telesales
+R004,2025-04,795.0,Noah R.,Telesales Inbound,Telesales
+R004,2025-05,795.0,Noah R.,Telesales Inbound,Telesales
+R004,2025-06,795.0,Noah R.,Telesales Inbound,Telesales
+R004,2025-07,795.0,Noah R.,Telesales Inbound,Telesales
+R004,2025-08,795.0,Noah R.,Telesales Inbound,Telesales
+R004,2025-09,795.0,Noah R.,Telesales Inbound,Telesales
+R004,2025-10,795.0,Noah R.,Telesales Inbound,Telesales
+R004,2025-11,795.0,Noah R.,Telesales Inbound,Telesales
+R004,2025-12,795.0,Noah R.,Telesales Inbound,Telesales
+R004,2026-01,862.0,Noah R.,Telesales Inbound,Telesales
+R004,2026-02,862.0,Noah R.,Telesales Inbound,Telesales
+R004,2026-03,862.0,Noah R.,Telesales Inbound,Telesales
+R004,2026-04,862.0,Noah R.,Telesales Inbound,Telesales
+R004,2026-05,862.0,Noah R.,Telesales Inbound,Telesales
+R004,2026-06,862.0,Noah R.,Telesales Inbound,Telesales
+R004,2026-07,862.0,Noah R.,Telesales Inbound,Telesales
+R004,2026-08,862.0,Noah R.,Telesales Inbound,Telesales
+R005,2024-01,750.0,Leo D.,Telesales Inbound,Telesales
+R005,2024-02,750.0,Leo D.,Telesales Inbound,Telesales
+R005,2024-03,750.0,Leo D.,Telesales Inbound,Telesales
+R005,2024-04,25.0,Leo D.,Telesales Inbound,Telesales
+R006,2024-01,750.0,James E.,Telesales Inbound,Telesales
+R006,2024-02,750.0,James E.,Telesales Inbound,Telesales
+R006,2024-03,750.0,James E.,Telesales Inbound,Telesales
+R006,2024-04,750.0,James E.,Telesales Inbound,Telesales
+R006,2024-05,750.0,James E.,Telesales Inbound,Telesales
+R006,2024-06,750.0,James E.,Telesales Inbound,Telesales
+R006,2024-07,750.0,James E.,Telesales Inbound,Telesales
+R006,2024-08,750.0,James E.,Telesales Inbound,Telesales
+R006,2024-09,750.0,James E.,Telesales Inbound,Telesales
+R006,2024-10,750.0,James E.,Telesales Inbound,Telesales
+R006,2024-11,750.0,James E.,Telesales Inbound,Telesales
+R006,2024-12,750.0,James E.,Telesales Inbound,Telesales
+R006,2025-01,795.0,James E.,Telesales Inbound,Telesales
+R006,2025-02,795.0,James E.,Telesales Inbound,Telesales
+R006,2025-03,795.0,James E.,Telesales Inbound,Telesales
+R006,2025-04,795.0,James E.,Telesales Inbound,Telesales
+R006,2025-05,795.0,James E.,Telesales Inbound,Telesales
+R006,2025-06,795.0,James E.,Telesales Inbound,Telesales
+R006,2025-07,795.0,James E.,Telesales Inbound,Telesales
+R006,2025-08,385.0,James E.,Telesales Inbound,Telesales
+R007,2024-01,750.0,Grace Q.,Telesales Inbound,Telesales
+R007,2024-02,750.0,Grace Q.,Telesales Inbound,Telesales
+R007,2024-03,750.0,Grace Q.,Telesales Inbound,Telesales
+R007,2024-04,750.0,Grace Q.,Telesales Inbound,Telesales
+R007,2024-05,750.0,Grace Q.,Telesales Inbound,Telesales
+R007,2024-06,750.0,Grace Q.,Telesales Inbound,Telesales
+R007,2024-07,750.0,Grace Q.,Telesales Inbound,Telesales
+R007,2024-08,750.0,Grace Q.,Telesales Inbound,Telesales
+R007,2024-09,750.0,Grace Q.,Telesales Inbound,Telesales
+R007,2024-10,750.0,Grace Q.,Telesales Inbound,Telesales
+R007,2024-11,750.0,Grace Q.,Telesales Inbound,Telesales
+R007,2024-12,750.0,Grace Q.,Telesales Inbound,Telesales
+R007,2025-01,795.0,Grace Q.,Telesales Inbound,Telesales
+R007,2025-02,795.0,Grace Q.,Telesales Inbound,Telesales
+R007,2025-03,795.0,Grace Q.,Telesales Inbound,Telesales
+R007,2025-04,795.0,Grace Q.,Telesales Inbound,Telesales
+R007,2025-05,795.0,Grace Q.,Telesales Inbound,Telesales
+R007,2025-06,795.0,Grace Q.,Telesales Inbound,Telesales
+R007,2025-07,795.0,Grace Q.,Telesales Inbound,Telesales
+R007,2025-08,795.0,Grace Q.,Telesales Inbound,Telesales
+R007,2025-09,795.0,Grace Q.,Telesales Inbound,Telesales
+R007,2025-10,795.0,Grace Q.,Telesales Inbound,Telesales
+R007,2025-11,795.0,Grace Q.,Telesales Inbound,Telesales
+R007,2025-12,795.0,Grace Q.,Telesales Inbound,Telesales
+R007,2026-01,862.0,Grace Q.,Telesales Inbound,Telesales
+R007,2026-02,862.0,Grace Q.,Telesales Inbound,Telesales
+R007,2026-03,862.0,Grace Q.,Telesales Inbound,Telesales
+R007,2026-04,862.0,Grace Q.,Telesales Inbound,Telesales
+R007,2026-05,862.0,Grace Q.,Telesales Inbound,Telesales
+R007,2026-06,862.0,Grace Q.,Telesales Inbound,Telesales
+R007,2026-07,862.0,Grace Q.,Telesales Inbound,Telesales
+R007,2026-08,862.0,Grace Q.,Telesales Inbound,Telesales
+R008,2024-01,750.0,Noah X.,Telesales Inbound,Telesales
+R008,2024-02,750.0,Noah X.,Telesales Inbound,Telesales
+R008,2024-03,750.0,Noah X.,Telesales Inbound,Telesales
+R008,2024-04,750.0,Noah X.,Telesales Inbound,Telesales
+R008,2024-05,750.0,Noah X.,Telesales Inbound,Telesales
+R008,2024-06,750.0,Noah X.,Telesales Inbound,Telesales
+R008,2024-07,750.0,Noah X.,Telesales Inbound,Telesales
+R008,2024-08,750.0,Noah X.,Telesales Inbound,Telesales
+R008,2024-09,750.0,Noah X.,Telesales Inbound,Telesales
+R008,2024-10,750.0,Noah X.,Telesales Inbound,Telesales
+R008,2024-11,750.0,Noah X.,Telesales Inbound,Telesales
+R008,2024-12,750.0,Noah X.,Telesales Inbound,Telesales
+R008,2025-01,795.0,Noah X.,Telesales Inbound,Telesales
+R008,2025-02,795.0,Noah X.,Telesales Inbound,Telesales
+R008,2025-03,795.0,Noah X.,Telesales Inbound,Telesales
+R008,2025-04,795.0,Noah X.,Telesales Inbound,Telesales
+R008,2025-05,795.0,Noah X.,Telesales Inbound,Telesales
+R008,2025-06,795.0,Noah X.,Telesales Inbound,Telesales
+R008,2025-07,795.0,Noah X.,Telesales Inbound,Telesales
+R008,2025-08,795.0,Noah X.,Telesales Inbound,Telesales
+R008,2025-09,795.0,Noah X.,Telesales Inbound,Telesales
+R008,2025-10,795.0,Noah X.,Telesales Inbound,Telesales
+R008,2025-11,795.0,Noah X.,Telesales Inbound,Telesales
+R008,2025-12,795.0,Noah X.,Telesales Inbound,Telesales
+R008,2026-01,862.0,Noah X.,Telesales Inbound,Telesales
+R008,2026-02,862.0,Noah X.,Telesales Inbound,Telesales
+R008,2026-03,862.0,Noah X.,Telesales Inbound,Telesales
+R008,2026-04,862.0,Noah X.,Telesales Inbound,Telesales
+R008,2026-05,862.0,Noah X.,Telesales Inbound,Telesales
+R008,2026-06,862.0,Noah X.,Telesales Inbound,Telesales
+R008,2026-07,862.0,Noah X.,Telesales Inbound,Telesales
+R008,2026-08,862.0,Noah X.,Telesales Inbound,Telesales
+R009,2024-04,25.0,Hannah A.,Telesales Inbound,Telesales
+R009,2024-05,375.0,Hannah A.,Telesales Inbound,Telesales
+R009,2024-06,562.0,Hannah A.,Telesales Inbound,Telesales
+R009,2024-07,750.0,Hannah A.,Telesales Inbound,Telesales
+R009,2024-08,750.0,Hannah A.,Telesales Inbound,Telesales
+R009,2024-09,750.0,Hannah A.,Telesales Inbound,Telesales
+R009,2024-10,750.0,Hannah A.,Telesales Inbound,Telesales
+R009,2024-11,750.0,Hannah A.,Telesales Inbound,Telesales
+R009,2024-12,750.0,Hannah A.,Telesales Inbound,Telesales
+R009,2025-01,795.0,Hannah A.,Telesales Inbound,Telesales
+R009,2025-02,795.0,Hannah A.,Telesales Inbound,Telesales
+R009,2025-03,795.0,Hannah A.,Telesales Inbound,Telesales
+R009,2025-04,795.0,Hannah A.,Telesales Inbound,Telesales
+R009,2025-05,795.0,Hannah A.,Telesales Inbound,Telesales
+R009,2025-06,795.0,Hannah A.,Telesales Inbound,Telesales
+R009,2025-07,795.0,Hannah A.,Telesales Inbound,Telesales
+R009,2025-08,77.0,Hannah A.,Telesales Inbound,Telesales
+R010,2024-09,13.0,Noah Q.,Telesales Inbound,Telesales
+R010,2024-10,375.0,Noah Q.,Telesales Inbound,Telesales
+R010,2024-11,562.0,Noah Q.,Telesales Inbound,Telesales
+R010,2024-12,750.0,Noah Q.,Telesales Inbound,Telesales
+R010,2025-01,795.0,Noah Q.,Telesales Inbound,Telesales
+R010,2025-02,795.0,Noah Q.,Telesales Inbound,Telesales
+R010,2025-03,795.0,Noah Q.,Telesales Inbound,Telesales
+R010,2025-04,795.0,Noah Q.,Telesales Inbound,Telesales
+R010,2025-05,795.0,Noah Q.,Telesales Inbound,Telesales
+R010,2025-06,795.0,Noah Q.,Telesales Inbound,Telesales
+R010,2025-07,795.0,Noah Q.,Telesales Inbound,Telesales
+R010,2025-08,795.0,Noah Q.,Telesales Inbound,Telesales
+R010,2025-09,795.0,Noah Q.,Telesales Inbound,Telesales
+R010,2025-10,795.0,Noah Q.,Telesales Inbound,Telesales
+R010,2025-11,795.0,Noah Q.,Telesales Inbound,Telesales
+R010,2025-12,795.0,Noah Q.,Telesales Inbound,Telesales
+R010,2026-01,862.0,Noah Q.,Telesales Inbound,Telesales
+R010,2026-02,862.0,Noah Q.,Telesales Inbound,Telesales
+R010,2026-03,862.0,Noah Q.,Telesales Inbound,Telesales
+R010,2026-04,862.0,Noah Q.,Telesales Inbound,Telesales
+R010,2026-05,862.0,Noah Q.,Telesales Inbound,Telesales
+R010,2026-06,862.0,Noah Q.,Telesales Inbound,Telesales
+R010,2026-07,862.0,Noah Q.,Telesales Inbound,Telesales
+R010,2026-08,862.0,Noah Q.,Telesales Inbound,Telesales
+R011,2025-09,113.0,Joshua K.,Telesales Inbound,Telesales
+R011,2025-10,398.0,Joshua K.,Telesales Inbound,Telesales
+R011,2025-11,596.0,Joshua K.,Telesales Inbound,Telesales
+R011,2025-12,795.0,Joshua K.,Telesales Inbound,Telesales
+R011,2026-01,862.0,Joshua K.,Telesales Inbound,Telesales
+R011,2026-02,862.0,Joshua K.,Telesales Inbound,Telesales
+R011,2026-03,862.0,Joshua K.,Telesales Inbound,Telesales
+R011,2026-04,862.0,Joshua K.,Telesales Inbound,Telesales
+R011,2026-05,862.0,Joshua K.,Telesales Inbound,Telesales
+R011,2026-06,862.0,Joshua K.,Telesales Inbound,Telesales
+R011,2026-07,862.0,Joshua K.,Telesales Inbound,Telesales
+R011,2026-08,862.0,Joshua K.,Telesales Inbound,Telesales
+R012,2025-09,133.0,Jacob Z.,Telesales Inbound,Telesales
+R012,2025-10,398.0,Jacob Z.,Telesales Inbound,Telesales
+R012,2025-11,596.0,Jacob Z.,Telesales Inbound,Telesales
+R012,2025-12,795.0,Jacob Z.,Telesales Inbound,Telesales
+R012,2026-01,862.0,Jacob Z.,Telesales Inbound,Telesales
+R012,2026-02,862.0,Jacob Z.,Telesales Inbound,Telesales
+R012,2026-03,862.0,Jacob Z.,Telesales Inbound,Telesales
+R012,2026-04,862.0,Jacob Z.,Telesales Inbound,Telesales
+R012,2026-05,862.0,Jacob Z.,Telesales Inbound,Telesales
+R012,2026-06,862.0,Jacob Z.,Telesales Inbound,Telesales
+R012,2026-07,862.0,Jacob Z.,Telesales Inbound,Telesales
+R012,2026-08,862.0,Jacob Z.,Telesales Inbound,Telesales
+R013,2024-01,150.0,Daniel W.,Telesales Outbound,Telesales
+R013,2024-02,150.0,Daniel W.,Telesales Outbound,Telesales
+R013,2024-03,150.0,Daniel W.,Telesales Outbound,Telesales
+R013,2024-04,150.0,Daniel W.,Telesales Outbound,Telesales
+R013,2024-05,150.0,Daniel W.,Telesales Outbound,Telesales
+R013,2024-06,150.0,Daniel W.,Telesales Outbound,Telesales
+R013,2024-07,150.0,Daniel W.,Telesales Outbound,Telesales
+R013,2024-08,150.0,Daniel W.,Telesales Outbound,Telesales
+R013,2024-09,15.0,Daniel W.,Telesales Outbound,Telesales
+R014,2024-01,150.0,Henry L.,Telesales Outbound,Telesales
+R014,2024-02,150.0,Henry L.,Telesales Outbound,Telesales
+R014,2024-03,150.0,Henry L.,Telesales Outbound,Telesales
+R014,2024-04,150.0,Henry L.,Telesales Outbound,Telesales
+R014,2024-05,150.0,Henry L.,Telesales Outbound,Telesales
+R014,2024-06,150.0,Henry L.,Telesales Outbound,Telesales
+R014,2024-07,150.0,Henry L.,Telesales Outbound,Telesales
+R014,2024-08,150.0,Henry L.,Telesales Outbound,Telesales
+R014,2024-09,150.0,Henry L.,Telesales Outbound,Telesales
+R014,2024-10,150.0,Henry L.,Telesales Outbound,Telesales
+R014,2024-11,150.0,Henry L.,Telesales Outbound,Telesales
+R014,2024-12,150.0,Henry L.,Telesales Outbound,Telesales
+R014,2025-01,159.0,Henry L.,Telesales Outbound,Telesales
+R014,2025-02,159.0,Henry L.,Telesales Outbound,Telesales
+R014,2025-03,159.0,Henry L.,Telesales Outbound,Telesales
+R014,2025-04,159.0,Henry L.,Telesales Outbound,Telesales
+R014,2025-05,159.0,Henry L.,Telesales Outbound,Telesales
+R014,2025-06,159.0,Henry L.,Telesales Outbound,Telesales
+R014,2025-07,159.0,Henry L.,Telesales Outbound,Telesales
+R014,2025-08,159.0,Henry L.,Telesales Outbound,Telesales
+R014,2025-09,159.0,Henry L.,Telesales Outbound,Telesales
+R014,2025-10,159.0,Henry L.,Telesales Outbound,Telesales
+R014,2025-11,159.0,Henry L.,Telesales Outbound,Telesales
+R014,2025-12,128.0,Henry L.,Telesales Outbound,Telesales
+R015,2024-01,150.0,Joshua U.,Telesales Outbound,Telesales
+R015,2024-02,150.0,Joshua U.,Telesales Outbound,Telesales
+R015,2024-03,150.0,Joshua U.,Telesales Outbound,Telesales
+R015,2024-04,150.0,Joshua U.,Telesales Outbound,Telesales
+R015,2024-05,150.0,Joshua U.,Telesales Outbound,Telesales
+R015,2024-06,150.0,Joshua U.,Telesales Outbound,Telesales
+R015,2024-07,58.0,Joshua U.,Telesales Outbound,Telesales
+R016,2024-01,150.0,Samuel B.,Telesales Outbound,Telesales
+R016,2024-02,150.0,Samuel B.,Telesales Outbound,Telesales
+R016,2024-03,150.0,Samuel B.,Telesales Outbound,Telesales
+R016,2024-04,150.0,Samuel B.,Telesales Outbound,Telesales
+R016,2024-05,150.0,Samuel B.,Telesales Outbound,Telesales
+R016,2024-06,150.0,Samuel B.,Telesales Outbound,Telesales
+R016,2024-07,150.0,Samuel B.,Telesales Outbound,Telesales
+R016,2024-08,150.0,Samuel B.,Telesales Outbound,Telesales
+R016,2024-09,150.0,Samuel B.,Telesales Outbound,Telesales
+R016,2024-10,150.0,Samuel B.,Telesales Outbound,Telesales
+R016,2024-11,150.0,Samuel B.,Telesales Outbound,Telesales
+R016,2024-12,150.0,Samuel B.,Telesales Outbound,Telesales
+R016,2025-01,159.0,Samuel B.,Telesales Outbound,Telesales
+R016,2025-02,159.0,Samuel B.,Telesales Outbound,Telesales
+R016,2025-03,159.0,Samuel B.,Telesales Outbound,Telesales
+R016,2025-04,159.0,Samuel B.,Telesales Outbound,Telesales
+R016,2025-05,159.0,Samuel B.,Telesales Outbound,Telesales
+R016,2025-06,159.0,Samuel B.,Telesales Outbound,Telesales
+R016,2025-07,159.0,Samuel B.,Telesales Outbound,Telesales
+R016,2025-08,159.0,Samuel B.,Telesales Outbound,Telesales
+R016,2025-09,159.0,Samuel B.,Telesales Outbound,Telesales
+R016,2025-10,159.0,Samuel B.,Telesales Outbound,Telesales
+R016,2025-11,159.0,Samuel B.,Telesales Outbound,Telesales
+R016,2025-12,159.0,Samuel B.,Telesales Outbound,Telesales
+R016,2026-01,172.0,Samuel B.,Telesales Outbound,Telesales
+R016,2026-02,172.0,Samuel B.,Telesales Outbound,Telesales
+R016,2026-03,172.0,Samuel B.,Telesales Outbound,Telesales
+R016,2026-04,172.0,Samuel B.,Telesales Outbound,Telesales
+R016,2026-05,172.0,Samuel B.,Telesales Outbound,Telesales
+R016,2026-06,172.0,Samuel B.,Telesales Outbound,Telesales
+R016,2026-07,172.0,Samuel B.,Telesales Outbound,Telesales
+R016,2026-08,172.0,Samuel B.,Telesales Outbound,Telesales
+R017,2024-01,106.0,Samuel O.,Telesales Outbound,Telesales
+R018,2024-02,31.0,Henry K.,Telesales Outbound,Telesales
+R018,2024-03,75.0,Henry K.,Telesales Outbound,Telesales
+R018,2024-04,112.0,Henry K.,Telesales Outbound,Telesales
+R018,2024-05,150.0,Henry K.,Telesales Outbound,Telesales
+R018,2024-06,150.0,Henry K.,Telesales Outbound,Telesales
+R018,2024-07,150.0,Henry K.,Telesales Outbound,Telesales
+R018,2024-08,150.0,Henry K.,Telesales Outbound,Telesales
+R018,2024-09,150.0,Henry K.,Telesales Outbound,Telesales
+R018,2024-10,150.0,Henry K.,Telesales Outbound,Telesales
+R018,2024-11,150.0,Henry K.,Telesales Outbound,Telesales
+R018,2024-12,150.0,Henry K.,Telesales Outbound,Telesales
+R018,2025-01,159.0,Henry K.,Telesales Outbound,Telesales
+R018,2025-02,159.0,Henry K.,Telesales Outbound,Telesales
+R018,2025-03,159.0,Henry K.,Telesales Outbound,Telesales
+R018,2025-04,159.0,Henry K.,Telesales Outbound,Telesales
+R018,2025-05,159.0,Henry K.,Telesales Outbound,Telesales
+R018,2025-06,159.0,Henry K.,Telesales Outbound,Telesales
+R018,2025-07,159.0,Henry K.,Telesales Outbound,Telesales
+R018,2025-08,159.0,Henry K.,Telesales Outbound,Telesales
+R018,2025-09,159.0,Henry K.,Telesales Outbound,Telesales
+R018,2025-10,159.0,Henry K.,Telesales Outbound,Telesales
+R018,2025-11,159.0,Henry K.,Telesales Outbound,Telesales
+R018,2025-12,159.0,Henry K.,Telesales Outbound,Telesales
+R018,2026-01,172.0,Henry K.,Telesales Outbound,Telesales
+R018,2026-02,172.0,Henry K.,Telesales Outbound,Telesales
+R018,2026-03,172.0,Henry K.,Telesales Outbound,Telesales
+R018,2026-04,172.0,Henry K.,Telesales Outbound,Telesales
+R018,2026-05,172.0,Henry K.,Telesales Outbound,Telesales
+R018,2026-06,172.0,Henry K.,Telesales Outbound,Telesales
+R018,2026-07,172.0,Henry K.,Telesales Outbound,Telesales
+R018,2026-08,172.0,Henry K.,Telesales Outbound,Telesales
+R019,2024-07,6.0,Ava W.,Telesales Outbound,Telesales
+R019,2024-08,75.0,Ava W.,Telesales Outbound,Telesales
+R019,2024-09,90.0,Ava W.,Telesales Outbound,Telesales
+R020,2024-10,11.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2024-11,75.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2024-12,112.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2025-01,159.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2025-02,159.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2025-03,159.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2025-04,159.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2025-05,159.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2025-06,159.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2025-07,159.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2025-08,159.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2025-09,159.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2025-10,159.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2025-11,159.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2025-12,159.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2026-01,172.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2026-02,172.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2026-03,172.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2026-04,172.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2026-05,172.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2026-06,172.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2026-07,172.0,Hannah Z.,Telesales Outbound,Telesales
+R020,2026-08,172.0,Hannah Z.,Telesales Outbound,Telesales
+R021,2024-09,14.0,Ella Z.,Telesales Outbound,Telesales
+R021,2024-10,75.0,Ella Z.,Telesales Outbound,Telesales
+R021,2024-11,112.0,Ella Z.,Telesales Outbound,Telesales
+R021,2024-12,150.0,Ella Z.,Telesales Outbound,Telesales
+R021,2025-01,159.0,Ella Z.,Telesales Outbound,Telesales
+R021,2025-02,159.0,Ella Z.,Telesales Outbound,Telesales
+R021,2025-03,159.0,Ella Z.,Telesales Outbound,Telesales
+R021,2025-04,159.0,Ella Z.,Telesales Outbound,Telesales
+R021,2025-05,159.0,Ella Z.,Telesales Outbound,Telesales
+R021,2025-06,159.0,Ella Z.,Telesales Outbound,Telesales
+R021,2025-07,159.0,Ella Z.,Telesales Outbound,Telesales
+R021,2025-08,159.0,Ella Z.,Telesales Outbound,Telesales
+R021,2025-09,159.0,Ella Z.,Telesales Outbound,Telesales
+R021,2025-10,159.0,Ella Z.,Telesales Outbound,Telesales
+R021,2025-11,159.0,Ella Z.,Telesales Outbound,Telesales
+R021,2025-12,159.0,Ella Z.,Telesales Outbound,Telesales
+R021,2026-01,172.0,Ella Z.,Telesales Outbound,Telesales
+R021,2026-02,172.0,Ella Z.,Telesales Outbound,Telesales
+R021,2026-03,172.0,Ella Z.,Telesales Outbound,Telesales
+R021,2026-04,172.0,Ella Z.,Telesales Outbound,Telesales
+R021,2026-05,172.0,Ella Z.,Telesales Outbound,Telesales
+R021,2026-06,172.0,Ella Z.,Telesales Outbound,Telesales
+R021,2026-07,172.0,Ella Z.,Telesales Outbound,Telesales
+R021,2026-08,172.0,Ella Z.,Telesales Outbound,Telesales
+R022,2026-01,13.0,Noah R.,Telesales Outbound,Telesales
+R022,2026-02,86.0,Noah R.,Telesales Outbound,Telesales
+R022,2026-03,129.0,Noah R.,Telesales Outbound,Telesales
+R022,2026-04,172.0,Noah R.,Telesales Outbound,Telesales
+R022,2026-05,172.0,Noah R.,Telesales Outbound,Telesales
+R022,2026-06,172.0,Noah R.,Telesales Outbound,Telesales
+R022,2026-07,172.0,Noah R.,Telesales Outbound,Telesales
+R022,2026-08,172.0,Noah R.,Telesales Outbound,Telesales
+R023,2024-01,250.0,Isla F.,Field North,Field Sales
+R023,2024-02,250.0,Isla F.,Field North,Field Sales
+R023,2024-03,250.0,Isla F.,Field North,Field Sales
+R023,2024-04,250.0,Isla F.,Field North,Field Sales
+R023,2024-05,250.0,Isla F.,Field North,Field Sales
+R023,2024-06,250.0,Isla F.,Field North,Field Sales
+R023,2024-07,250.0,Isla F.,Field North,Field Sales
+R023,2024-08,250.0,Isla F.,Field North,Field Sales
+R023,2024-09,250.0,Isla F.,Field North,Field Sales
+R023,2024-10,250.0,Isla F.,Field North,Field Sales
+R023,2024-11,250.0,Isla F.,Field North,Field Sales
+R023,2024-12,250.0,Isla F.,Field North,Field Sales
+R023,2025-01,265.0,Isla F.,Field North,Field Sales
+R023,2025-02,265.0,Isla F.,Field North,Field Sales
+R023,2025-03,265.0,Isla F.,Field North,Field Sales
+R023,2025-04,265.0,Isla F.,Field North,Field Sales
+R023,2025-05,265.0,Isla F.,Field North,Field Sales
+R023,2025-06,265.0,Isla F.,Field North,Field Sales
+R023,2025-07,265.0,Isla F.,Field North,Field Sales
+R023,2025-08,265.0,Isla F.,Field North,Field Sales
+R023,2025-09,265.0,Isla F.,Field North,Field Sales
+R023,2025-10,265.0,Isla F.,Field North,Field Sales
+R023,2025-11,265.0,Isla F.,Field North,Field Sales
+R023,2025-12,265.0,Isla F.,Field North,Field Sales
+R023,2026-01,288.0,Isla F.,Field North,Field Sales
+R023,2026-02,288.0,Isla F.,Field North,Field Sales
+R023,2026-03,250.0,Isla F.,Field North,Field Sales
+R024,2024-01,250.0,Zara J.,Field North,Field Sales
+R024,2024-02,250.0,Zara J.,Field North,Field Sales
+R024,2024-03,250.0,Zara J.,Field North,Field Sales
+R024,2024-04,225.0,Zara J.,Field North,Field Sales
+R025,2024-01,250.0,Jack O.,Field North,Field Sales
+R025,2024-02,250.0,Jack O.,Field North,Field Sales
+R025,2024-03,250.0,Jack O.,Field North,Field Sales
+R025,2024-04,250.0,Jack O.,Field North,Field Sales
+R025,2024-05,250.0,Jack O.,Field North,Field Sales
+R025,2024-06,250.0,Jack O.,Field North,Field Sales
+R025,2024-07,250.0,Jack O.,Field North,Field Sales
+R025,2024-08,250.0,Jack O.,Field North,Field Sales
+R025,2024-09,250.0,Jack O.,Field North,Field Sales
+R025,2024-10,250.0,Jack O.,Field North,Field Sales
+R025,2024-11,250.0,Jack O.,Field North,Field Sales
+R025,2024-12,250.0,Jack O.,Field North,Field Sales
+R025,2025-01,265.0,Jack O.,Field North,Field Sales
+R025,2025-02,265.0,Jack O.,Field North,Field Sales
+R025,2025-03,265.0,Jack O.,Field North,Field Sales
+R025,2025-04,265.0,Jack O.,Field North,Field Sales
+R025,2025-05,265.0,Jack O.,Field North,Field Sales
+R025,2025-06,265.0,Jack O.,Field North,Field Sales
+R025,2025-07,265.0,Jack O.,Field North,Field Sales
+R025,2025-08,265.0,Jack O.,Field North,Field Sales
+R025,2025-09,265.0,Jack O.,Field North,Field Sales
+R025,2025-10,265.0,Jack O.,Field North,Field Sales
+R025,2025-11,265.0,Jack O.,Field North,Field Sales
+R025,2025-12,265.0,Jack O.,Field North,Field Sales
+R025,2026-01,288.0,Jack O.,Field North,Field Sales
+R025,2026-02,288.0,Jack O.,Field North,Field Sales
+R025,2026-03,288.0,Jack O.,Field North,Field Sales
+R025,2026-04,163.0,Jack O.,Field North,Field Sales
+R026,2024-01,250.0,Joshua J.,Field North,Field Sales
+R026,2024-02,250.0,Joshua J.,Field North,Field Sales
+R026,2024-03,250.0,Joshua J.,Field North,Field Sales
+R026,2024-04,250.0,Joshua J.,Field North,Field Sales
+R026,2024-05,250.0,Joshua J.,Field North,Field Sales
+R026,2024-06,250.0,Joshua J.,Field North,Field Sales
+R026,2024-07,250.0,Joshua J.,Field North,Field Sales
+R026,2024-08,250.0,Joshua J.,Field North,Field Sales
+R026,2024-09,250.0,Joshua J.,Field North,Field Sales
+R026,2024-10,250.0,Joshua J.,Field North,Field Sales
+R026,2024-11,250.0,Joshua J.,Field North,Field Sales
+R026,2024-12,250.0,Joshua J.,Field North,Field Sales
+R026,2025-01,265.0,Joshua J.,Field North,Field Sales
+R026,2025-02,265.0,Joshua J.,Field North,Field Sales
+R026,2025-03,265.0,Joshua J.,Field North,Field Sales
+R026,2025-04,265.0,Joshua J.,Field North,Field Sales
+R026,2025-05,265.0,Joshua J.,Field North,Field Sales
+R026,2025-06,265.0,Joshua J.,Field North,Field Sales
+R026,2025-07,265.0,Joshua J.,Field North,Field Sales
+R026,2025-08,265.0,Joshua J.,Field North,Field Sales
+R026,2025-09,265.0,Joshua J.,Field North,Field Sales
+R026,2025-10,265.0,Joshua J.,Field North,Field Sales
+R026,2025-11,265.0,Joshua J.,Field North,Field Sales
+R026,2025-12,265.0,Joshua J.,Field North,Field Sales
+R026,2026-01,288.0,Joshua J.,Field North,Field Sales
+R026,2026-02,154.0,Joshua J.,Field North,Field Sales
+R027,2024-01,250.0,Emily N.,Field North,Field Sales
+R027,2024-02,250.0,Emily N.,Field North,Field Sales
+R027,2024-03,250.0,Emily N.,Field North,Field Sales
+R027,2024-04,250.0,Emily N.,Field North,Field Sales
+R027,2024-05,250.0,Emily N.,Field North,Field Sales
+R027,2024-06,250.0,Emily N.,Field North,Field Sales
+R027,2024-07,250.0,Emily N.,Field North,Field Sales
+R027,2024-08,250.0,Emily N.,Field North,Field Sales
+R027,2024-09,250.0,Emily N.,Field North,Field Sales
+R027,2024-10,250.0,Emily N.,Field North,Field Sales
+R027,2024-11,250.0,Emily N.,Field North,Field Sales
+R027,2024-12,250.0,Emily N.,Field North,Field Sales
+R027,2025-01,265.0,Emily N.,Field North,Field Sales
+R027,2025-02,265.0,Emily N.,Field North,Field Sales
+R027,2025-03,265.0,Emily N.,Field North,Field Sales
+R027,2025-04,265.0,Emily N.,Field North,Field Sales
+R027,2025-05,265.0,Emily N.,Field North,Field Sales
+R027,2025-06,265.0,Emily N.,Field North,Field Sales
+R027,2025-07,265.0,Emily N.,Field North,Field Sales
+R027,2025-08,265.0,Emily N.,Field North,Field Sales
+R027,2025-09,265.0,Emily N.,Field North,Field Sales
+R027,2025-10,265.0,Emily N.,Field North,Field Sales
+R027,2025-11,265.0,Emily N.,Field North,Field Sales
+R027,2025-12,265.0,Emily N.,Field North,Field Sales
+R027,2026-01,288.0,Emily N.,Field North,Field Sales
+R027,2026-02,288.0,Emily N.,Field North,Field Sales
+R027,2026-03,288.0,Emily N.,Field North,Field Sales
+R027,2026-04,288.0,Emily N.,Field North,Field Sales
+R027,2026-05,288.0,Emily N.,Field North,Field Sales
+R027,2026-06,288.0,Emily N.,Field North,Field Sales
+R027,2026-07,288.0,Emily N.,Field North,Field Sales
+R027,2026-08,288.0,Emily N.,Field North,Field Sales
+R028,2024-05,28.0,Jack X.,Field North,Field Sales
+R028,2024-06,125.0,Jack X.,Field North,Field Sales
+R028,2024-07,188.0,Jack X.,Field North,Field Sales
+R028,2024-08,250.0,Jack X.,Field North,Field Sales
+R028,2024-09,250.0,Jack X.,Field North,Field Sales
+R028,2024-10,250.0,Jack X.,Field North,Field Sales
+R028,2024-11,250.0,Jack X.,Field North,Field Sales
+R028,2024-12,250.0,Jack X.,Field North,Field Sales
+R028,2025-01,265.0,Jack X.,Field North,Field Sales
+R028,2025-02,265.0,Jack X.,Field North,Field Sales
+R028,2025-03,265.0,Jack X.,Field North,Field Sales
+R028,2025-04,265.0,Jack X.,Field North,Field Sales
+R028,2025-05,265.0,Jack X.,Field North,Field Sales
+R028,2025-06,265.0,Jack X.,Field North,Field Sales
+R028,2025-07,265.0,Jack X.,Field North,Field Sales
+R028,2025-08,265.0,Jack X.,Field North,Field Sales
+R028,2025-09,265.0,Jack X.,Field North,Field Sales
+R028,2025-10,265.0,Jack X.,Field North,Field Sales
+R028,2025-11,265.0,Jack X.,Field North,Field Sales
+R028,2025-12,265.0,Jack X.,Field North,Field Sales
+R028,2026-01,288.0,Jack X.,Field North,Field Sales
+R028,2026-02,288.0,Jack X.,Field North,Field Sales
+R028,2026-03,288.0,Jack X.,Field North,Field Sales
+R028,2026-04,288.0,Jack X.,Field North,Field Sales
+R028,2026-05,288.0,Jack X.,Field North,Field Sales
+R028,2026-06,288.0,Jack X.,Field North,Field Sales
+R028,2026-07,288.0,Jack X.,Field North,Field Sales
+R028,2026-08,288.0,Jack X.,Field North,Field Sales
+R029,2026-03,14.0,Evie N.,Field North,Field Sales
+R029,2026-04,144.0,Evie N.,Field North,Field Sales
+R029,2026-05,216.0,Evie N.,Field North,Field Sales
+R029,2026-06,288.0,Evie N.,Field North,Field Sales
+R029,2026-07,288.0,Evie N.,Field North,Field Sales
+R029,2026-08,288.0,Evie N.,Field North,Field Sales
+R030,2026-05,58.0,Ruby K.,Field North,Field Sales
+R030,2026-06,144.0,Ruby K.,Field North,Field Sales
+R030,2026-07,216.0,Ruby K.,Field North,Field Sales
+R030,2026-08,288.0,Ruby K.,Field North,Field Sales
+R031,2026-05,53.0,Ethan T.,Field North,Field Sales
+R031,2026-06,144.0,Ethan T.,Field North,Field Sales
+R031,2026-07,216.0,Ethan T.,Field North,Field Sales
+R031,2026-08,288.0,Ethan T.,Field North,Field Sales
+R032,2024-01,350.0,Oscar G.,Field South,Field Sales
+R032,2024-02,350.0,Oscar G.,Field South,Field Sales
+R032,2024-03,350.0,Oscar G.,Field South,Field Sales
+R032,2024-04,350.0,Oscar G.,Field South,Field Sales
+R032,2024-05,248.0,Oscar G.,Field South,Field Sales
+R033,2024-01,350.0,William K.,Field South,Field Sales
+R033,2024-02,350.0,William K.,Field South,Field Sales
+R033,2024-03,350.0,William K.,Field South,Field Sales
+R033,2024-04,350.0,William K.,Field South,Field Sales
+R033,2024-05,350.0,William K.,Field South,Field Sales
+R033,2024-06,350.0,William K.,Field South,Field Sales
+R033,2024-07,350.0,William K.,Field South,Field Sales
+R033,2024-08,350.0,William K.,Field South,Field Sales
+R033,2024-09,350.0,William K.,Field South,Field Sales
+R033,2024-10,350.0,William K.,Field South,Field Sales
+R033,2024-11,350.0,William K.,Field South,Field Sales
+R033,2024-12,350.0,William K.,Field South,Field Sales
+R033,2025-01,371.0,William K.,Field South,Field Sales
+R033,2025-02,371.0,William K.,Field South,Field Sales
+R033,2025-03,371.0,William K.,Field South,Field Sales
+R033,2025-04,371.0,William K.,Field South,Field Sales
+R033,2025-05,371.0,William K.,Field South,Field Sales
+R033,2025-06,371.0,William K.,Field South,Field Sales
+R033,2025-07,371.0,William K.,Field South,Field Sales
+R033,2025-08,371.0,William K.,Field South,Field Sales
+R033,2025-09,371.0,William K.,Field South,Field Sales
+R033,2025-10,371.0,William K.,Field South,Field Sales
+R033,2025-11,371.0,William K.,Field South,Field Sales
+R033,2025-12,371.0,William K.,Field South,Field Sales
+R033,2026-01,402.0,William K.,Field South,Field Sales
+R033,2026-02,402.0,William K.,Field South,Field Sales
+R033,2026-03,402.0,William K.,Field South,Field Sales
+R033,2026-04,402.0,William K.,Field South,Field Sales
+R033,2026-05,402.0,William K.,Field South,Field Sales
+R033,2026-06,402.0,William K.,Field South,Field Sales
+R033,2026-07,402.0,William K.,Field South,Field Sales
+R033,2026-08,402.0,William K.,Field South,Field Sales
+R034,2024-01,169.0,George P.,Field South,Field Sales
+R035,2024-01,350.0,Zara C.,Field South,Field Sales
+R035,2024-02,350.0,Zara C.,Field South,Field Sales
+R035,2024-03,350.0,Zara C.,Field South,Field Sales
+R035,2024-04,350.0,Zara C.,Field South,Field Sales
+R035,2024-05,350.0,Zara C.,Field South,Field Sales
+R035,2024-06,350.0,Zara C.,Field South,Field Sales
+R035,2024-07,350.0,Zara C.,Field South,Field Sales
+R035,2024-08,350.0,Zara C.,Field South,Field Sales
+R035,2024-09,350.0,Zara C.,Field South,Field Sales
+R035,2024-10,350.0,Zara C.,Field South,Field Sales
+R035,2024-11,350.0,Zara C.,Field South,Field Sales
+R035,2024-12,350.0,Zara C.,Field South,Field Sales
+R035,2025-01,371.0,Zara C.,Field South,Field Sales
+R035,2025-02,371.0,Zara C.,Field South,Field Sales
+R035,2025-03,371.0,Zara C.,Field South,Field Sales
+R035,2025-04,371.0,Zara C.,Field South,Field Sales
+R035,2025-05,371.0,Zara C.,Field South,Field Sales
+R035,2025-06,371.0,Zara C.,Field South,Field Sales
+R035,2025-07,371.0,Zara C.,Field South,Field Sales
+R035,2025-08,371.0,Zara C.,Field South,Field Sales
+R035,2025-09,371.0,Zara C.,Field South,Field Sales
+R035,2025-10,371.0,Zara C.,Field South,Field Sales
+R035,2025-11,371.0,Zara C.,Field South,Field Sales
+R035,2025-12,299.0,Zara C.,Field South,Field Sales
+R036,2024-01,350.0,Ruby C.,Field South,Field Sales
+R036,2024-02,350.0,Ruby C.,Field South,Field Sales
+R036,2024-03,350.0,Ruby C.,Field South,Field Sales
+R036,2024-04,350.0,Ruby C.,Field South,Field Sales
+R036,2024-05,350.0,Ruby C.,Field South,Field Sales
+R036,2024-06,350.0,Ruby C.,Field South,Field Sales
+R036,2024-07,350.0,Ruby C.,Field South,Field Sales
+R036,2024-08,350.0,Ruby C.,Field South,Field Sales
+R036,2024-09,350.0,Ruby C.,Field South,Field Sales
+R036,2024-10,350.0,Ruby C.,Field South,Field Sales
+R036,2024-11,350.0,Ruby C.,Field South,Field Sales
+R036,2024-12,350.0,Ruby C.,Field South,Field Sales
+R036,2025-01,120.0,Ruby C.,Field South,Field Sales
+R037,2024-02,60.0,Daniel R.,Field South,Field Sales
+R037,2024-03,175.0,Daniel R.,Field South,Field Sales
+R037,2024-04,262.0,Daniel R.,Field South,Field Sales
+R037,2024-05,350.0,Daniel R.,Field South,Field Sales
+R037,2024-06,350.0,Daniel R.,Field South,Field Sales
+R037,2024-07,350.0,Daniel R.,Field South,Field Sales
+R037,2024-08,350.0,Daniel R.,Field South,Field Sales
+R037,2024-09,350.0,Daniel R.,Field South,Field Sales
+R037,2024-10,350.0,Daniel R.,Field South,Field Sales
+R037,2024-11,350.0,Daniel R.,Field South,Field Sales
+R037,2024-12,350.0,Daniel R.,Field South,Field Sales
+R037,2025-01,371.0,Daniel R.,Field South,Field Sales
+R037,2025-02,371.0,Daniel R.,Field South,Field Sales
+R037,2025-03,371.0,Daniel R.,Field South,Field Sales
+R037,2025-04,371.0,Daniel R.,Field South,Field Sales
+R037,2025-05,371.0,Daniel R.,Field South,Field Sales
+R037,2025-06,371.0,Daniel R.,Field South,Field Sales
+R037,2025-07,371.0,Daniel R.,Field South,Field Sales
+R037,2025-08,371.0,Daniel R.,Field South,Field Sales
+R037,2025-09,371.0,Daniel R.,Field South,Field Sales
+R037,2025-10,371.0,Daniel R.,Field South,Field Sales
+R037,2025-11,371.0,Daniel R.,Field South,Field Sales
+R037,2025-12,371.0,Daniel R.,Field South,Field Sales
+R037,2026-01,402.0,Daniel R.,Field South,Field Sales
+R037,2026-02,402.0,Daniel R.,Field South,Field Sales
+R037,2026-03,402.0,Daniel R.,Field South,Field Sales
+R037,2026-04,402.0,Daniel R.,Field South,Field Sales
+R037,2026-05,402.0,Daniel R.,Field South,Field Sales
+R037,2026-06,402.0,Daniel R.,Field South,Field Sales
+R037,2026-07,117.0,Daniel R.,Field South,Field Sales
+R038,2024-06,23.0,Harry T.,Field South,Field Sales
+R038,2024-07,175.0,Harry T.,Field South,Field Sales
+R038,2024-08,262.0,Harry T.,Field South,Field Sales
+R038,2024-09,350.0,Harry T.,Field South,Field Sales
+R038,2024-10,350.0,Harry T.,Field South,Field Sales
+R038,2024-11,350.0,Harry T.,Field South,Field Sales
+R038,2024-12,350.0,Harry T.,Field South,Field Sales
+R038,2025-01,371.0,Harry T.,Field South,Field Sales
+R038,2025-02,371.0,Harry T.,Field South,Field Sales
+R038,2025-03,275.0,Harry T.,Field South,Field Sales
+R039,2025-01,3.0,Daniel V.,Field South,Field Sales
+R039,2025-02,186.0,Daniel V.,Field South,Field Sales
+R039,2025-03,278.0,Daniel V.,Field South,Field Sales
+R039,2025-04,371.0,Daniel V.,Field South,Field Sales
+R039,2025-05,371.0,Daniel V.,Field South,Field Sales
+R039,2025-06,371.0,Daniel V.,Field South,Field Sales
+R039,2025-07,371.0,Daniel V.,Field South,Field Sales
+R039,2025-08,371.0,Daniel V.,Field South,Field Sales
+R039,2025-09,371.0,Daniel V.,Field South,Field Sales
+R039,2025-10,371.0,Daniel V.,Field South,Field Sales
+R039,2025-11,371.0,Daniel V.,Field South,Field Sales
+R039,2025-12,371.0,Daniel V.,Field South,Field Sales
+R039,2026-01,402.0,Daniel V.,Field South,Field Sales
+R039,2026-02,402.0,Daniel V.,Field South,Field Sales
+R039,2026-03,402.0,Daniel V.,Field South,Field Sales
+R039,2026-04,402.0,Daniel V.,Field South,Field Sales
+R039,2026-05,402.0,Daniel V.,Field South,Field Sales
+R039,2026-06,402.0,Daniel V.,Field South,Field Sales
+R039,2026-07,402.0,Daniel V.,Field South,Field Sales
+R039,2026-08,402.0,Daniel V.,Field South,Field Sales
+R040,2025-04,34.0,Isla E.,Field South,Field Sales
+R040,2025-05,186.0,Isla E.,Field South,Field Sales
+R040,2025-06,278.0,Isla E.,Field South,Field Sales
+R040,2025-07,371.0,Isla E.,Field South,Field Sales
+R040,2025-08,371.0,Isla E.,Field South,Field Sales
+R040,2025-09,371.0,Isla E.,Field South,Field Sales
+R040,2025-10,371.0,Isla E.,Field South,Field Sales
+R040,2025-11,371.0,Isla E.,Field South,Field Sales
+R040,2025-12,263.0,Isla E.,Field South,Field Sales
+R041,2026-01,16.0,Charlie X.,Field South,Field Sales
+R041,2026-02,201.0,Charlie X.,Field South,Field Sales
+R041,2026-03,263.0,Charlie X.,Field South,Field Sales
+R042,2026-01,52.0,Ava T.,Field South,Field Sales
+R042,2026-02,201.0,Ava T.,Field South,Field Sales
+R042,2026-03,302.0,Ava T.,Field South,Field Sales
+R042,2026-04,402.0,Ava T.,Field South,Field Sales
+R042,2026-05,402.0,Ava T.,Field South,Field Sales
+R042,2026-06,402.0,Ava T.,Field South,Field Sales
+R042,2026-07,402.0,Ava T.,Field South,Field Sales
+R042,2026-08,402.0,Ava T.,Field South,Field Sales
+R043,2026-04,64.0,Poppy W.,Field South,Field Sales
+R043,2026-05,201.0,Poppy W.,Field South,Field Sales
+R043,2026-06,302.0,Poppy W.,Field South,Field Sales
+R043,2026-07,402.0,Poppy W.,Field South,Field Sales
+R043,2026-08,402.0,Poppy W.,Field South,Field Sales
+R044,2026-08,101.0,Poppy D.,Field South,Field Sales
+R045,2024-01,300.0,Daisy E.,Business Development,Business Development
+R045,2024-02,300.0,Daisy E.,Business Development,Business Development
+R045,2024-03,300.0,Daisy E.,Business Development,Business Development
+R045,2024-04,300.0,Daisy E.,Business Development,Business Development
+R045,2024-05,300.0,Daisy E.,Business Development,Business Development
+R045,2024-06,300.0,Daisy E.,Business Development,Business Development
+R045,2024-07,300.0,Daisy E.,Business Development,Business Development
+R045,2024-08,300.0,Daisy E.,Business Development,Business Development
+R045,2024-09,300.0,Daisy E.,Business Development,Business Development
+R045,2024-10,300.0,Daisy E.,Business Development,Business Development
+R045,2024-11,300.0,Daisy E.,Business Development,Business Development
+R045,2024-12,300.0,Daisy E.,Business Development,Business Development
+R045,2025-01,51.0,Daisy E.,Business Development,Business Development
+R046,2024-01,300.0,Evie E.,Business Development,Business Development
+R046,2024-02,300.0,Evie E.,Business Development,Business Development
+R046,2024-03,300.0,Evie E.,Business Development,Business Development
+R046,2024-04,300.0,Evie E.,Business Development,Business Development
+R046,2024-05,300.0,Evie E.,Business Development,Business Development
+R046,2024-06,300.0,Evie E.,Business Development,Business Development
+R046,2024-07,300.0,Evie E.,Business Development,Business Development
+R046,2024-08,300.0,Evie E.,Business Development,Business Development
+R046,2024-09,300.0,Evie E.,Business Development,Business Development
+R046,2024-10,300.0,Evie E.,Business Development,Business Development
+R046,2024-11,300.0,Evie E.,Business Development,Business Development
+R046,2024-12,300.0,Evie E.,Business Development,Business Development
+R046,2025-01,318.0,Evie E.,Business Development,Business Development
+R046,2025-02,318.0,Evie E.,Business Development,Business Development
+R046,2025-03,318.0,Evie E.,Business Development,Business Development
+R046,2025-04,318.0,Evie E.,Business Development,Business Development
+R046,2025-05,318.0,Evie E.,Business Development,Business Development
+R046,2025-06,318.0,Evie E.,Business Development,Business Development
+R046,2025-07,318.0,Evie E.,Business Development,Business Development
+R046,2025-08,318.0,Evie E.,Business Development,Business Development
+R046,2025-09,318.0,Evie E.,Business Development,Business Development
+R046,2025-10,318.0,Evie E.,Business Development,Business Development
+R046,2025-11,318.0,Evie E.,Business Development,Business Development
+R046,2025-12,318.0,Evie E.,Business Development,Business Development
+R046,2026-01,345.0,Evie E.,Business Development,Business Development
+R046,2026-02,345.0,Evie E.,Business Development,Business Development
+R046,2026-03,345.0,Evie E.,Business Development,Business Development
+R046,2026-04,345.0,Evie E.,Business Development,Business Development
+R046,2026-05,345.0,Evie E.,Business Development,Business Development
+R046,2026-06,345.0,Evie E.,Business Development,Business Development
+R046,2026-07,345.0,Evie E.,Business Development,Business Development
+R046,2026-08,345.0,Evie E.,Business Development,Business Development
+R047,2024-01,300.0,Isla T.,Business Development,Business Development
+R047,2024-02,300.0,Isla T.,Business Development,Business Development
+R047,2024-03,300.0,Isla T.,Business Development,Business Development
+R047,2024-04,300.0,Isla T.,Business Development,Business Development
+R047,2024-05,300.0,Isla T.,Business Development,Business Development
+R047,2024-06,300.0,Isla T.,Business Development,Business Development
+R047,2024-07,300.0,Isla T.,Business Development,Business Development
+R047,2024-08,300.0,Isla T.,Business Development,Business Development
+R047,2024-09,300.0,Isla T.,Business Development,Business Development
+R047,2024-10,300.0,Isla T.,Business Development,Business Development
+R047,2024-11,300.0,Isla T.,Business Development,Business Development
+R047,2024-12,300.0,Isla T.,Business Development,Business Development
+R047,2025-01,318.0,Isla T.,Business Development,Business Development
+R047,2025-02,318.0,Isla T.,Business Development,Business Development
+R047,2025-03,318.0,Isla T.,Business Development,Business Development
+R047,2025-04,318.0,Isla T.,Business Development,Business Development
+R047,2025-05,318.0,Isla T.,Business Development,Business Development
+R047,2025-06,318.0,Isla T.,Business Development,Business Development
+R047,2025-07,318.0,Isla T.,Business Development,Business Development
+R047,2025-08,318.0,Isla T.,Business Development,Business Development
+R047,2025-09,318.0,Isla T.,Business Development,Business Development
+R047,2025-10,318.0,Isla T.,Business Development,Business Development
+R047,2025-11,318.0,Isla T.,Business Development,Business Development
+R047,2025-12,318.0,Isla T.,Business Development,Business Development
+R047,2026-01,100.0,Isla T.,Business Development,Business Development
+R048,2025-02,71.0,Chloe Q.,Business Development,Business Development
+R048,2025-03,159.0,Chloe Q.,Business Development,Business Development
+R048,2025-04,238.0,Chloe Q.,Business Development,Business Development
+R048,2025-05,318.0,Chloe Q.,Business Development,Business Development
+R048,2025-06,318.0,Chloe Q.,Business Development,Business Development
+R048,2025-07,318.0,Chloe Q.,Business Development,Business Development
+R048,2025-08,318.0,Chloe Q.,Business Development,Business Development
+R048,2025-09,318.0,Chloe Q.,Business Development,Business Development
+R048,2025-10,318.0,Chloe Q.,Business Development,Business Development
+R048,2025-11,318.0,Chloe Q.,Business Development,Business Development
+R048,2025-12,318.0,Chloe Q.,Business Development,Business Development
+R048,2026-01,345.0,Chloe Q.,Business Development,Business Development
+R048,2026-02,345.0,Chloe Q.,Business Development,Business Development
+R048,2026-03,345.0,Chloe Q.,Business Development,Business Development
+R048,2026-04,345.0,Chloe Q.,Business Development,Business Development
+R048,2026-05,345.0,Chloe Q.,Business Development,Business Development
+R048,2026-06,345.0,Chloe Q.,Business Development,Business Development
+R048,2026-07,345.0,Chloe Q.,Business Development,Business Development
+R048,2026-08,345.0,Chloe Q.,Business Development,Business Development
+R049,2026-02,40.0,Chloe X.,Business Development,Business Development
+R049,2026-03,172.0,Chloe X.,Business Development,Business Development
+R049,2026-04,259.0,Chloe X.,Business Development,Business Development
+R049,2026-05,345.0,Chloe X.,Business Development,Business Development
+R049,2026-06,345.0,Chloe X.,Business Development,Business Development
+R049,2026-07,345.0,Chloe X.,Business Development,Business Development
+R049,2026-08,345.0,Chloe X.,Business Development,Business Development

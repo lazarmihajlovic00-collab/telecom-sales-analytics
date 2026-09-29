@@ -1,0 +1,8 @@
+lead_source,closed_opps,qualified_to_quote,quote_to_credit_check,credit_check_to_order
+Web,8627,0.796,0.592,0.719
+Door-to-Door,7119,0.914,0.758,0.645
+Inbound Call,5167,0.828,0.657,0.779
+Outbound Call,3878,0.726,0.407,0.734
+Referral,2110,0.868,0.744,0.85
+Partner,869,0.802,0.585,0.745
+Web (Business),834,0.778,0.561,0.717

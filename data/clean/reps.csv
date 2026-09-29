@@ -1,0 +1,50 @@
+rep_id,rep_name,team,channel,hire_date,leave_date
+R001,Chloe N.,Telesales Inbound,Telesales,2023-03-20,
+R002,William C.,Telesales Inbound,Telesales,2021-12-30,2024-09-02
+R003,Thomas F.,Telesales Inbound,Telesales,2023-01-27,
+R004,Noah R.,Telesales Inbound,Telesales,2022-11-24,
+R005,Leo D.,Telesales Inbound,Telesales,2022-06-10,2024-04-02
+R006,James E.,Telesales Inbound,Telesales,2022-07-29,2025-08-16
+R007,Grace Q.,Telesales Inbound,Telesales,2022-01-07,
+R008,Noah X.,Telesales Inbound,Telesales,2023-01-23,
+R009,Hannah A.,Telesales Inbound,Telesales,2024-04-27,2025-08-04
+R010,Noah Q.,Telesales Inbound,Telesales,2024-09-29,
+R011,Joshua K.,Telesales Inbound,Telesales,2025-09-14,
+R012,Jacob Z.,Telesales Inbound,Telesales,2025-09-11,
+R013,Daniel W.,Telesales Outbound,Telesales,2023-06-27,2024-09-04
+R014,Henry L.,Telesales Outbound,Telesales,2023-08-21,2025-12-26
+R015,Joshua U.,Telesales Outbound,Telesales,2022-02-01,2024-07-13
+R016,Samuel B.,Telesales Outbound,Telesales,2023-04-01,
+R017,Samuel O.,Telesales Outbound,Telesales,2023-06-04,2024-01-23
+R018,Henry K.,Telesales Outbound,Telesales,2024-02-06,
+R019,Ava W.,Telesales Outbound,Telesales,2024-07-27,2024-09-25
+R020,Hannah Z.,Telesales Outbound,Telesales,2024-10-23,
+R021,Ella Z.,Telesales Outbound,Telesales,2024-09-20,
+R022,Noah R.,Telesales Outbound,Telesales,2026-01-23,
+R023,Isla F.,Field North,Field Sales,2022-08-18,2026-03-28
+R024,Zara J.,Field North,Field Sales,2023-08-18,2024-04-28
+R025,Jack O.,Field North,Field Sales,2023-02-20,2026-04-18
+R026,Joshua J.,Field North,Field Sales,2023-04-30,2026-02-16
+R027,Emily N.,Field North,Field Sales,2022-12-25,
+R028,Jack X.,Field North,Field Sales,2024-05-18,
+R029,Evie N.,Field North,Field Sales,2026-03-26,
+R030,Ruby K.,Field North,Field Sales,2026-05-07,
+R031,Ethan T.,Field North,Field Sales,2026-05-09,
+R032,Oscar G.,Field South,Field Sales,2022-01-08,2024-05-23
+R033,William K.,Field South,Field Sales,2021-09-25,
+R034,George P.,Field South,Field Sales,2021-08-01,2024-01-16
+R035,Zara C.,Field South,Field Sales,2022-12-27,2025-12-26
+R036,Ruby C.,Field South,Field Sales,2023-05-22,2025-01-11
+R037,Daniel R.,Field South,Field Sales,2024-02-10,2026-07-10
+R038,Harry T.,Field South,Field Sales,2024-06-23,2025-03-24
+R039,Daniel V.,Field South,Field Sales,2025-01-31,
+R040,Isla E.,Field South,Field Sales,2025-04-20,2025-12-23
+R041,Charlie X.,Field South,Field Sales,2026-01-27,2026-03-28
+R042,Ava T.,Field South,Field Sales,2026-01-16,
+R043,Poppy W.,Field South,Field Sales,2026-04-12,
+R044,Poppy D.,Field South,Field Sales,2026-08-01,
+R045,Daisy E.,Business Development,Business Development,2022-10-31,2025-01-06
+R046,Evie E.,Business Development,Business Development,2022-09-30,
+R047,Isla T.,Business Development,Business Development,2021-08-25,2026-01-10
+R048,Chloe Q.,Business Development,Business Development,2025-02-04,
+R049,Chloe X.,Business Development,Business Development,2026-02-16,

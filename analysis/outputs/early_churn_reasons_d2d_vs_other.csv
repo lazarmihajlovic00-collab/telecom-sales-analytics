@@ -1,0 +1,6 @@
+churn_reason,Door-to-Door,Other
+Did not understand contract terms,0.31,0.085
+Found cheaper offer,0.174,0.107
+Installation/early service issues,0.143,0.312
+Moving home,0.157,0.169
+Service not as expected,0.216,0.327

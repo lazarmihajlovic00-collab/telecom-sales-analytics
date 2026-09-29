@@ -1,0 +1,13 @@
+lost_at_stage,lost_reason,n,share_of_stage_losses
+Credit Check,Customer withdrew,1976,0.467
+Credit Check,Failed credit check,1928,0.456
+Credit Check,Not recorded,325,0.077
+Qualified,Not serviceable at address,1528,0.308
+Qualified,No response,1510,0.304
+Qualified,Price,1494,0.301
+Qualified,Not recorded,428,0.086
+Quote Sent,Contract length,2052,0.24
+Quote Sent,No response,2004,0.234
+Quote Sent,Price,1927,0.225
+Quote Sent,Chose competitor,1890,0.221
+Quote Sent,Not recorded,681,0.08

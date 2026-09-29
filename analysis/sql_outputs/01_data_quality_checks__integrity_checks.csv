@@ -1,0 +1,9 @@
+check_name,n
+opps without lead,0
+opps without rep,0
+customers without opp,0
+won opps without close_date,0
+activated orders without customer,0
+duplicate opp_id,0
+flagged: close before create (excluded from cycle time),36
+flagged: churn before activation (excluded from churn),7

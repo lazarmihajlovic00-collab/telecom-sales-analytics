@@ -1,0 +1,16 @@
+team,year,rep_months,quota_mrr,ordered_mrr,attainment,share_rep_months_at_or_above_quota
+Business Development,2024,36,10800.0,12065.0,1.117,0.472
+Business Development,2025,36,10695.0,19762.0,1.848,0.889
+Business Development,2026,23,7431.0,10016.0,1.348,0.522
+Field North,2024,59,14538.0,15903.0,1.094,0.576
+Field North,2025,60,15900.0,17041.0,1.072,0.5
+Field North,2026,38,9534.0,10300.0,1.08,0.579
+Field South,2024,59,19551.0,20862.0,1.067,0.576
+Field South,2025,59,20806.0,24823.0,1.193,0.627
+Field South,2026,39,13462.0,16192.0,1.203,0.692
+Telesales Inbound,2024,94,69374.0,68005.0,0.98,0.457
+Telesales Inbound,2025,96,72656.0,80046.0,1.102,0.698
+Telesales Inbound,2026,64,55168.0,61108.0,1.108,0.641
+Telesales Outbound,2024,57,7940.0,10159.0,1.279,0.649
+Telesales Outbound,2025,60,9509.0,10750.0,1.131,0.55
+Telesales Outbound,2026,39,6579.0,5351.0,0.813,0.308

@@ -1,0 +1,13 @@
+team,stage,open_opps,open_mrr,weighted_mrr
+Business Development,Credit Check,8,451.0,322.0
+Business Development,Qualified,38,2969.0,1123.0
+Business Development,Quote Sent,29,2318.0,1063.0
+Field North,Quote Sent,3,118.0,54.0
+Field South,Qualified,2,72.0,27.0
+Field South,Quote Sent,2,102.0,47.0
+Telesales Inbound,Credit Check,11,409.0,292.0
+Telesales Inbound,Qualified,63,2083.0,788.0
+Telesales Inbound,Quote Sent,43,1485.0,681.0
+Telesales Outbound,Credit Check,3,91.0,65.0
+Telesales Outbound,Qualified,28,953.0,360.0
+Telesales Outbound,Quote Sent,13,421.0,193.0

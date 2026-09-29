@@ -1,0 +1,8 @@
+lead_source,eligible_customers,churned_within_90d,early_life_churn_rate
+Door-to-Door,2551,287,0.113
+Web (Business),214,11,0.051
+Referral,965,43,0.045
+Web,2447,106,0.043
+Inbound Call,1829,79,0.043
+Outbound Call,736,25,0.034
+Partner,243,8,0.033

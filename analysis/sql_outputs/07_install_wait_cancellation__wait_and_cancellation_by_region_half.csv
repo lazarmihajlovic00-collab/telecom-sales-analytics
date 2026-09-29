@@ -1,0 +1,37 @@
+region,half_year,resolved_orders,avg_install_wait_days,cancellation_rate
+London,2024-H1,451,9.3,0.069
+London,2024-H2,446,10.0,0.056
+London,2025-H1,537,9.8,0.069
+London,2025-H2,521,9.7,0.048
+London,2026-H1,569,9.2,0.046
+London,2026-H2,143,9.3,0.063
+Midlands,2024-H1,276,12.7,0.091
+Midlands,2024-H2,307,12.5,0.055
+Midlands,2025-H1,336,12.8,0.068
+Midlands,2025-H2,390,12.5,0.049
+Midlands,2026-H1,354,12.4,0.071
+Midlands,2026-H2,97,11.2,0.041
+North West,2024-H1,301,13.6,0.08
+North West,2024-H2,306,13.5,0.052
+North West,2025-H1,347,15.9,0.072
+North West,2025-H2,322,20.0,0.078
+North West,2026-H1,334,24.1,0.159
+North West,2026-H2,75,26.0,0.2
+Scotland,2024-H1,200,15.5,0.105
+Scotland,2024-H2,177,15.4,0.113
+Scotland,2025-H1,219,15.4,0.055
+Scotland,2025-H2,206,16.0,0.063
+Scotland,2026-H1,231,15.1,0.095
+Scotland,2026-H2,51,15.7,0.137
+South East,2024-H1,340,11.4,0.059
+South East,2024-H2,336,11.7,0.045
+South East,2025-H1,407,11.0,0.066
+South East,2025-H2,361,11.5,0.064
+South East,2026-H1,426,11.6,0.073
+South East,2026-H2,108,11.4,0.102
+Yorkshire & North East,2024-H1,257,13.5,0.105
+Yorkshire & North East,2024-H2,270,13.0,0.089
+Yorkshire & North East,2025-H1,308,13.6,0.071
+Yorkshire & North East,2025-H2,290,12.9,0.062
+Yorkshire & North East,2026-H1,309,13.4,0.078
+Yorkshire & North East,2026-H2,81,12.6,0.062

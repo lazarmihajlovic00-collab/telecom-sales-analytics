@@ -1,0 +1,8 @@
+product_id,product_name,segment,list_mrr_gbp
+P01,Fibre 150,Residential,25.0
+P02,Fibre 500,Residential,32.0
+P03,Fibre 1000,Residential,42.0
+P04,Fibre 3000,Residential,60.0
+P11,Business Fibre 500,Business,45.0
+P12,Business Fibre 1000,Business,65.0
+P13,Business Leased Line 1G,Business,250.0

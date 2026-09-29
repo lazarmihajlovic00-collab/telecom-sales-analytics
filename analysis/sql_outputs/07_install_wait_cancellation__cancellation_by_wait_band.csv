@@ -1,0 +1,5 @@
+install_wait_band,resolved_orders,cancelled,cancellation_rate
+0-14 days,7016,418,0.06
+15-21 days,2954,232,0.079
+22-28 days,615,95,0.154
+29+ days,104,21,0.202

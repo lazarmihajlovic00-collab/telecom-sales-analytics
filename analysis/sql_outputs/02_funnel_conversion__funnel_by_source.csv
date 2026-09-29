@@ -1,0 +1,8 @@
+lead_source,leads,opportunities,orders,lost,open_opps,lead_to_opp_rate,win_rate,lead_to_order_rate
+Outbound Call,25196,3922,842,3036,44,0.156,0.217,0.033
+Web,22855,8715,2926,5701,88,0.381,0.339,0.128
+Door-to-Door,13073,7126,3182,3937,7,0.545,0.447,0.243
+Inbound Call,8678,5182,2188,2979,15,0.597,0.423,0.252
+Referral,3381,2124,1158,952,14,0.628,0.549,0.343
+Partner,1915,916,304,565,47,0.478,0.35,0.159
+Web (Business),1907,862,261,573,28,0.452,0.313,0.137

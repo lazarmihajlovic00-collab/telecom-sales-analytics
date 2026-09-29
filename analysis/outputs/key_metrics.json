@@ -1,0 +1,293 @@
+{
+  "overall_win_rate": 0.3797,
+  "win_rate_chi2_p": 0.0,
+  "win_rate_by_source": {
+    "Door-to-Door": 0.447,
+    "Inbound Call": 0.423,
+    "Outbound Call": 0.217,
+    "Partner": 0.35,
+    "Referral": 0.549,
+    "Web": 0.339,
+    "Web (Business)": 0.313
+  },
+  "early_churn_d2d": 0.1125,
+  "early_churn_other_res": 0.0423,
+  "early_churn_test": {
+    "p1": 0.1125,
+    "p2": 0.0423,
+    "diff": 0.0702,
+    "ci_low": 0.0569,
+    "ci_high": 0.0835,
+    "ratio": 2.6579,
+    "p_value": 0.0
+  },
+  "d2d_early_churn_reason_contract_terms_share": 0.31,
+  "other_early_churn_reason_contract_terms_share": 0.085,
+  "cancel_by_band_excl_NW_and_D2D": {
+    "0-14 days": 0.047,
+    "15-21 days": 0.066,
+    "22-28 days": 0.15,
+    "29+ days": 0.25
+  },
+  "logit_or_per_extra_week_wait": 1.5268,
+  "logit_or_per_week_ci": [
+    1.3699,
+    1.7017
+  ],
+  "logit_or_north_west_after_controls": 0.9627,
+  "cancel_rate_by_band": {
+    "0-14 days": 0.06,
+    "15-21 days": 0.079,
+    "22-28 days": 0.154,
+    "29+ days": 0.202
+  },
+  "north_west_trend": {
+    "wait": {
+      "2024-H1": 13.625,
+      "2024-H2": 13.487,
+      "2025-H1": 15.937,
+      "2025-H2": 20.003,
+      "2026-H1": 24.117,
+      "2026-H2": 26.013
+    },
+    "cancel": {
+      "2024-H1": 0.08,
+      "2024-H2": 0.052,
+      "2025-H1": 0.072,
+      "2025-H2": 0.078,
+      "2026-H1": 0.159,
+      "2026-H2": 0.2
+    },
+    "n": {
+      "2024-H1": 301,
+      "2024-H2": 306,
+      "2025-H1": 347,
+      "2025-H2": 322,
+      "2026-H1": 334,
+      "2026-H2": 75
+    }
+  },
+  "nw_excess_cancellations_12m": 42.4843,
+  "nw_excess_cancelled_mrr_12m": 1527.6462,
+  "nw_base_cancel_2024": 0.0659,
+  "nw_cancel_last12": 0.1333,
+  "discount": {
+    "Door-to-Door": {
+      "wr0": 0.4026,
+      "wr10": 0.4821,
+      "wr15plus": 0.4702,
+      "n15plus": 2484,
+      "lift_0_to_10": {
+        "p1": 0.4821,
+        "p2": 0.4026,
+        "diff": 0.0795,
+        "ci_low": 0.0451,
+        "ci_high": 0.1139,
+        "ratio": 1.1974,
+        "p_value": 0.0
+      },
+      "lift_10_to_15plus": {
+        "p1": 0.4702,
+        "p2": 0.4821,
+        "diff": -0.0119,
+        "ci_low": -0.0424,
+        "ci_high": 0.0186,
+        "ratio": 0.9754,
+        "p_value": 0.4451
+      }
+    },
+    "Web": {
+      "wr0": 0.3259,
+      "wr10": 0.3726,
+      "wr15plus": 0.3587,
+      "n15plus": 446,
+      "lift_0_to_10": {
+        "p1": 0.3726,
+        "p2": 0.3259,
+        "diff": 0.0467,
+        "ci_low": 0.0173,
+        "ci_high": 0.0761,
+        "ratio": 1.1433,
+        "p_value": 0.0015
+      },
+      "lift_10_to_15plus": {
+        "p1": 0.3587,
+        "p2": 0.3726,
+        "diff": -0.0138,
+        "ci_low": -0.0656,
+        "ci_high": 0.038,
+        "ratio": 0.9629,
+        "p_value": 0.6023
+      }
+    },
+    "Inbound Call": {
+      "wr0": 0.4075,
+      "wr10": 0.4414,
+      "wr15plus": 0.5169,
+      "n15plus": 207,
+      "lift_0_to_10": {
+        "p1": 0.4414,
+        "p2": 0.4075,
+        "diff": 0.0339,
+        "ci_low": -0.0014,
+        "ci_high": 0.0692,
+        "ratio": 1.0833,
+        "p_value": 0.0586
+      },
+      "lift_10_to_15plus": {
+        "p1": 0.5169,
+        "p2": 0.4414,
+        "diff": 0.0755,
+        "ci_low": 0.0012,
+        "ci_high": 0.1498,
+        "ratio": 1.171,
+        "p_value": 0.0459
+      }
+    },
+    "Outbound Call": {
+      "wr0": 0.1961,
+      "wr10": 0.2261,
+      "wr15plus": 0.228,
+      "n15plus": 601,
+      "lift_0_to_10": {
+        "p1": 0.2261,
+        "p2": 0.1961,
+        "diff": 0.0299,
+        "ci_low": -0.0052,
+        "ci_high": 0.0651,
+        "ratio": 1.1526,
+        "p_value": 0.094
+      },
+      "lift_10_to_15plus": {
+        "p1": 0.228,
+        "p2": 0.2261,
+        "diff": 0.0019,
+        "ci_low": -0.0409,
+        "ci_high": 0.0447,
+        "ratio": 1.0083,
+        "p_value": 0.9315
+      }
+    }
+  },
+  "annual_cost_discounts_15plus": 50275.8,
+  "annual_saving_if_capped_at_10": 20329.8,
+  "ramp_ratio_by_channel": {
+    "Business Development": 0.724,
+    "Field Sales": 0.69,
+    "Telesales": 0.69
+  },
+  "ramp_test": {
+    "p1": 0.2836,
+    "p2": 0.3871,
+    "diff": -0.1036,
+    "ci_low": -0.1239,
+    "ci_high": -0.0832,
+    "ratio": 0.7324,
+    "p_value": 0.0
+  },
+  "retained_90d_share_by_team": {
+    "Field North": 0.777,
+    "Field South": 0.82,
+    "Business Development": 0.864,
+    "Telesales Inbound": 0.902,
+    "Telesales Outbound": 0.905
+  },
+  "attainment_2026": {
+    "Business Development": 1.348,
+    "Field North": 1.08,
+    "Field South": 1.203,
+    "Telesales Inbound": 1.108,
+    "Telesales Outbound": 0.813
+  },
+  "attainment_2025": {
+    "Business Development": 1.848,
+    "Field North": 1.072,
+    "Field South": 1.193,
+    "Telesales Inbound": 1.102,
+    "Telesales Outbound": 1.131
+  },
+  "forecast_backtest": {
+    "Seasonal naive": {
+      "MAE": 26.167,
+      "MAPE": 0.071,
+      "RMSE": 30.301,
+      "bias": -8.5
+    },
+    "Trend x seasonal index": {
+      "MAE": 21.202,
+      "MAPE": 0.062,
+      "RMSE": 27.546,
+      "bias": 17.928
+    },
+    "Holt-Winters (additive)": {
+      "MAE": 16.415,
+      "MAPE": 0.047,
+      "RMSE": 21.506,
+      "bias": -1.594
+    }
+  },
+  "forecast_best_method": "Holt-Winters (additive)",
+  "forecast": [
+    {
+      "month": "2026-09",
+      "forecast_orders": 402.0,
+      "lower_80": 374.0,
+      "upper_80": 429.0,
+      "implied_ordered_mrr_gbp": 14278.0
+    },
+    {
+      "month": "2026-10",
+      "forecast_orders": 378.0,
+      "lower_80": 351.0,
+      "upper_80": 406.0,
+      "implied_ordered_mrr_gbp": 13440.0
+    },
+    {
+      "month": "2026-11",
+      "forecast_orders": 357.0,
+      "lower_80": 329.0,
+      "upper_80": 384.0,
+      "implied_ordered_mrr_gbp": 12673.0
+    },
+    {
+      "month": "2026-12",
+      "forecast_orders": 337.0,
+      "lower_80": 310.0,
+      "upper_80": 365.0,
+      "implied_ordered_mrr_gbp": 11985.0
+    },
+    {
+      "month": "2027-01",
+      "forecast_orders": 406.0,
+      "lower_80": 379.0,
+      "upper_80": 434.0,
+      "implied_ordered_mrr_gbp": 14442.0
+    },
+    {
+      "month": "2027-02",
+      "forecast_orders": 396.0,
+      "lower_80": 368.0,
+      "upper_80": 423.0,
+      "implied_ordered_mrr_gbp": 14063.0
+    }
+  ],
+  "forecast_avg_mrr_per_order": 35.5479,
+  "seasonal_index": {
+    "1": 0.963,
+    "2": 1.024,
+    "3": 1.043,
+    "4": 1.016,
+    "5": 1.025,
+    "6": 0.999,
+    "7": 1.005,
+    "8": 0.897,
+    "9": 1.104,
+    "10": 1.059,
+    "11": 0.989,
+    "12": 0.877
+  },
+  "trend_slope_orders_per_month": 2.3564,
+  "orders_last_6m": 2181,
+  "forecast_next_6m_total": 2275.2836,
+  "reconciliation": "passed: SQL and pandas agree on win rate and early-life churn for every source"
+}

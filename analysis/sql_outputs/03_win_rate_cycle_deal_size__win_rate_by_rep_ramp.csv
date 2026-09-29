@@ -1,0 +1,16 @@
+team,rep_ramp_status,closed_opps,win_rate
+Business Development,0-3 months,133,0.248
+Business Development,3-6 months,93,0.28
+Business Development,6+ months,1477,0.343
+Field North,0-3 months,272,0.335
+Field North,3-6 months,160,0.394
+Field North,6+ months,2485,0.467
+Field South,0-3 months,577,0.322
+Field South,3-6 months,504,0.383
+Field South,6+ months,3121,0.477
+Telesales Inbound,0-3 months,710,0.311
+Telesales Inbound,3-6 months,811,0.381
+Telesales Inbound,6+ months,14383,0.399
+Telesales Outbound,0-3 months,364,0.143
+Telesales Outbound,3-6 months,330,0.194
+Telesales Outbound,6+ months,3184,0.228

@@ -1,0 +1,30 @@
+lead_source,discount_pct,closed_opps,win_rate
+Door-to-Door,0,1448,0.403
+Door-to-Door,5,1428,0.408
+Door-to-Door,10,1759,0.482
+Door-to-Door,15,1440,0.457
+Door-to-Door,20,1044,0.489
+Inbound Call,0,2589,0.407
+Inbound Call,5,1304,0.426
+Inbound Call,10,1067,0.441
+Inbound Call,15,172,0.523
+Outbound Call,0,1142,0.196
+Outbound Call,5,1184,0.225
+Outbound Call,10,951,0.226
+Outbound Call,15,394,0.218
+Outbound Call,20,207,0.246
+Partner,0,243,0.358
+Partner,5,220,0.295
+Partner,10,215,0.423
+Partner,15,141,0.305
+Referral,0,1512,0.547
+Referral,5,397,0.557
+Referral,10,201,0.547
+Web,0,5180,0.326
+Web,5,1718,0.349
+Web,10,1283,0.373
+Web,15,367,0.341
+Web (Business),0,246,0.28
+Web (Business),5,212,0.259
+Web (Business),10,190,0.374
+Web (Business),15,140,0.343
