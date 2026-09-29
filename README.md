@@ -130,7 +130,13 @@ raw CSV exports ──► clean_data.py ──► clean tables ──► run_sql
                         # stakeholder memo, Tableau build guide
 ```
 
-## 9. Excel dashboard
+## 9. Dashboards
+
+**Tableau Public:** [Kestrel Fibre Sales Analytics (Interactive Dashboards)](https://public.tableau.com/views/KestrelFibreSalesAnalyticssyntheticdata/Cancelrate29dayband?:language=en-US## 9. Excel dashboard:redirect=auth## 9. Excel dashboard:display_count=n)
+
+Four dashboards: install wait vs cancellation, discount impact on win rate, team quota attainment, and monthly orders forecast. Built from the clean data and SQL outputs.
+
+## 10. Excel dashboard
 
 `dashboard/Kestrel_Sales_Performance_Dashboard.xlsx`: 2,565 live formulas over the row-level data, with no pasted results
 except where labelled.
@@ -140,7 +146,19 @@ except where labelled.
 - **Forecast**: a trend × seasonal-index model built entirely from formulas, shown next to the Python Holt-Winters forecast and the backtest table.
 - **Planner**: a reverse funnel. Enter a target MRR, and it calculates the orders, opportunities and leads needed by source, then the reps needed by team (including a new-starter ramp adjustment).
 
-## 10. Reproduce
+## 10. Tableau Public Dashboards
+
+[**Kestrel Fibre Sales Analytics — Interactive Dashboards**](https://public.tableau.com/views/KestrelFibreSalesAnalyticssyntheticdata/Cancelrate29dayband?:language=en-US&:redirect=auth&:display_count=n)
+
+Four interactive dashboards built from the clean data and SQL outputs:
+- **Cancel rate by install wait band** — visual confirmation of the logistic regression finding
+- **Discount impact on win rate** — source-level analysis of discount effectiveness
+- **Team quota attainment** — monthly and year-to-date quotas with actual performance
+- **Orders forecast** — 6-month forecast with Holt-Winters and trend × seasonal-index methods
+
+The Tableau data model uses the extracts in `dashboard/tableau/` and calculated fields for cohort retention and weighted pipeline (documented in [docs/tableau_build_guide.md](docs/tableau_build_guide.md)).
+
+## 11. Reproduce
 
 ```bash
 pip install -r requirements.txt
@@ -153,7 +171,7 @@ python src/build_excel_dashboard.py     # Excel dashboard (open in Excel to calc
 python src/export_tableau.py            # Tableau extracts
 ```
 
-## 11. Documentation
+## 12. Documentation
 
 | Document | What's in it |
 |---|---|
@@ -163,9 +181,8 @@ python src/export_tableau.py            # Tableau extracts
 | [docs/data_quality_log.md](docs/data_quality_log.md) | Every cleaning rule with row counts (auto-generated) |
 | [docs/synthetic_data_design.md](docs/synthetic_data_design.md) | How the data was generated and which effects were encoded |
 | [docs/tableau_build_guide.md](docs/tableau_build_guide.md) | Data model, calculated fields and layouts to rebuild the dashboard in Tableau |
-| [docs/interview_prep.md](docs/interview_prep.md) | Methodology questions and the reasoning behind each decision |
 
-## 12. What I would do first with real CRM data
+## 13. What I would do first with real CRM data
 
 Validate the definitions with Sales Ops: what counts as a "won" deal, and when does quota credit happen? Then check
 lead-source attribution, which is usually the messiest field. Next, add activity data (calls and visits) so capacity
