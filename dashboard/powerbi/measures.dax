@@ -1,0 +1,123 @@
+// Kestrel Fibre - Power BI measures (paste one at a time into a measure table called _Measures)
+// Tables are the bi.* views from SQL Server, renamed without the "bi " prefix.
+// Definitions match sql_server/07_analyses.sql; the expected values in the build guide come from 08_validation.sql.
+
+// ---------- Funnel and selling
+Leads = COUNTROWS ( fact_lead )
+
+Lead to Opp Rate = DIVIDE ( SUM ( fact_lead[is_converted] ), [Leads] )
+
+Closed Opps = SUM ( fact_opportunity[is_closed] )
+
+Orders = SUM ( fact_opportunity[is_won] )
+
+Win Rate = DIVIDE ( [Orders], [Closed Opps] )
+
+Opportunities Created =
+CALCULATE (
+    COUNTROWS ( fact_opportunity ),
+    USERELATIONSHIP ( fact_opportunity[created_date], dim_date[date] )
+)
+
+Quote Rate =
+DIVIDE (
+    CALCULATE ( SUM ( fact_opportunity[reached_quote] ), fact_opportunity[is_closed] = 1 ),
+    [Closed Opps]
+)
+
+Credit Check Rate of Quoted =
+DIVIDE (
+    CALCULATE ( SUM ( fact_opportunity[reached_credit_check] ), fact_opportunity[is_closed] = 1 ),
+    CALCULATE ( SUM ( fact_opportunity[reached_quote] ), fact_opportunity[is_closed] = 1 )
+)
+
+Order Rate of Credit Checked =
+DIVIDE (
+    [Orders],
+    CALCULATE ( SUM ( fact_opportunity[reached_credit_check] ), fact_opportunity[is_closed] = 1 )
+)
+
+// ---------- Deal economics
+Ordered MRR = CALCULATE ( SUM ( fact_opportunity[mrr_gbp] ), fact_opportunity[is_won] = 1 )
+
+Avg MRR per Order = DIVIDE ( [Ordered MRR], [Orders] )
+
+Avg Discount % = CALCULATE ( AVERAGE ( fact_opportunity[discount_pct] ), fact_opportunity[is_won] = 1 ) / 100
+
+Annualised Discount Cost = CALCULATE ( SUM ( fact_opportunity[discount_mrr_gbp] ), fact_opportunity[is_won] = 1 ) * 12
+
+// sales_cycle_days is blank for rows with a close-before-create error, so MEDIAN skips them
+Median Sales Cycle Days = CALCULATE ( MEDIAN ( fact_opportunity[sales_cycle_days] ), fact_opportunity[is_won] = 1 )
+
+// ---------- Installation and cancellation (resolved orders only: activated or cancelled)
+Resolved Orders =
+CALCULATE (
+    COUNTROWS ( fact_opportunity ),
+    fact_opportunity[is_won] = 1,
+    fact_opportunity[is_install_resolved] = 1
+)
+
+Pre-install Cancellations =
+CALCULATE (
+    SUM ( fact_opportunity[is_cancelled_pre_install] ),
+    fact_opportunity[is_won] = 1,
+    fact_opportunity[is_install_resolved] = 1
+)
+
+Cancellation Rate = DIVIDE ( [Pre-install Cancellations], [Resolved Orders] )
+
+Avg Install Wait Days =
+CALCULATE (
+    AVERAGE ( fact_opportunity[install_wait_days] ),
+    fact_opportunity[is_won] = 1,
+    fact_opportunity[is_install_resolved] = 1,
+    fact_opportunity[date_error] = 0
+)
+
+// ---------- Sale quality and churn
+Retained 90d MRR Share =
+CALCULATE (
+    DIVIDE ( SUM ( fact_opportunity[retained_90d_mrr] ), SUM ( fact_opportunity[mrr_gbp] ) ),
+    fact_opportunity[in_quality_cohort] = 1
+)
+
+// Only customers activated at least 90 days before the snapshot are eligible (no right-censoring)
+Early Life Churn Rate = DIVIDE ( SUM ( fact_customer[churned_90d] ), SUM ( fact_customer[eligible_90d] ) )
+
+// ---------- Quota (stub part-month quotas excluded, as in the SQL)
+Quota MRR = CALCULATE ( SUM ( fact_rep_month[quota_mrr_gbp] ), fact_rep_month[is_stub_quota] = 0 )
+
+Ordered MRR in Quota Months = CALCULATE ( SUM ( fact_rep_month[ordered_mrr] ), fact_rep_month[is_stub_quota] = 0 )
+
+Quota Attainment = DIVIDE ( [Ordered MRR in Quota Months], [Quota MRR] )
+
+Share of Rep-Months at Quota =
+DIVIDE (
+    CALCULATE ( SUM ( fact_rep_month[met_quota] ), fact_rep_month[is_stub_quota] = 0 ),
+    CALCULATE ( COUNTROWS ( fact_rep_month ), fact_rep_month[is_stub_quota] = 0 )
+)
+
+// ---------- MRR bridge and monthly churn (fact_mrr_month has one row per month)
+New MRR = SUM ( fact_mrr_month[new_mrr] )
+
+Churned MRR = SUM ( fact_mrr_month[churned_mrr] )
+
+Net New MRR = [New MRR] - [Churned MRR]
+
+Ending MRR =
+VAR LastMonth = MAX ( fact_mrr_month[month_start] )
+RETURN
+    CALCULATE ( SUM ( fact_mrr_month[ending_mrr] ), fact_mrr_month[month_start] = LastMonth )
+
+// Over several months this is the pooled rate: churned from opening bases / sum of opening bases
+Monthly Churn Rate =
+DIVIDE ( SUM ( fact_mrr_month[churned_from_opening_base] ), SUM ( fact_mrr_month[active_at_start] ) )
+
+// ---------- Pipeline (a snapshot: open opps have no close date, so ignore date filters)
+Open Opportunities =
+CALCULATE ( COUNTROWS ( fact_opportunity ), fact_opportunity[outcome] = "Open", REMOVEFILTERS ( dim_date ) )
+
+Open Pipeline MRR =
+CALCULATE ( SUM ( fact_opportunity[mrr_gbp] ), fact_opportunity[outcome] = "Open", REMOVEFILTERS ( dim_date ) )
+
+Weighted Open Pipeline = CALCULATE ( SUM ( fact_opportunity[weighted_open_mrr] ), REMOVEFILTERS ( dim_date ) )

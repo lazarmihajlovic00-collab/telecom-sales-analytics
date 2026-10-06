@@ -1,7 +1,7 @@
 """
 Build dashboard/Kestrel_Sales_Performance_Dashboard.xlsx
 
-Design choices (interview-defensible):
+Design choices (every number traces to a live formula or a labelled import):
 - Row-level opportunity data lives in the workbook; every KPI is a live COUNTIFS/SUMIFS formula,
   so the dashboard recalculates when the Year / Lead Source selectors change.
 - Values imported from Python/SQL (MRR bridge, Holt-Winters forecast) are labelled as such.

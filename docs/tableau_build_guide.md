@@ -4,8 +4,6 @@ Goal: rebuild the analysis as a 3-page interactive Tableau Public workbook using
 `dashboard/tableau/`. Expected time: **2.5–3.5 hours** for a first-time Tableau user.
 Tool: **Tableau Public (free)**, <https://public.tableau.com> → *Create* → download Tableau Public Desktop.
 
-> Only list Tableau on your CV after you have built this yourself and can explain every calculated field.
-
 ---
 
 ## 1. Data sources

@@ -1,0 +1,42 @@
+check_name,expected,actual,result
+rows_leads,77005.0000,77005.0000,PASS
+rows_opportunities,28847.0000,28847.0000,PASS
+rows_customers,9957.0000,9957.0000,PASS
+rows_reps,49.0000,49.0000,PASS
+rows_quotas,836.0000,836.0000,PASS
+rows_products,7.0000,7.0000,PASS
+orders,10861.0000,10861.0000,PASS
+closed_opps,28604.0000,28604.0000,PASS
+open_opps,243.0000,243.0000,PASS
+win_rate,0.3797,0.3797,PASS
+ordered_mrr,383899.0500,383899.0500,PASS
+lead_to_opp_rate,0.3746,0.3746,PASS
+win_rate_Referral,0.5488,0.5488,PASS
+win_rate_Outbound Call,0.2171,0.2171,PASS
+win_rate_Door-to-Door,0.4470,0.4470,PASS
+median_cycle_Partner,26.0000,26.0000,PASS
+early_churn_Door-to-Door,0.1125,0.1125,PASS
+cancel_rate_0-14 days,0.0596,0.0596,PASS
+cancel_rate_15-21 days,0.0785,0.0785,PASS
+cancel_rate_22-28 days,0.1545,0.1545,PASS
+cancel_rate_29+ days,0.2019,0.2019,PASS
+attainment_Business Development_2025,1.8478,1.8478,PASS
+attainment_Business Development_2026,1.3478,1.3478,PASS
+attainment_Field North_2025,1.0717,1.0717,PASS
+attainment_Field North_2026,1.0803,1.0803,PASS
+attainment_Field South_2025,1.1931,1.1931,PASS
+attainment_Field South_2026,1.2028,1.2028,PASS
+attainment_Telesales Inbound_2025,1.1017,1.1017,PASS
+attainment_Telesales Inbound_2026,1.1077,1.1077,PASS
+attainment_Telesales Outbound_2025,1.1305,1.1305,PASS
+attainment_Telesales Outbound_2026,0.8133,0.8133,PASS
+retained90_Business Development,0.8637,0.8637,PASS
+retained90_Field North,0.7767,0.7767,PASS
+retained90_Field South,0.8202,0.8202,PASS
+retained90_Telesales Inbound,0.9024,0.9024,PASS
+retained90_Telesales Outbound,0.9050,0.9050,PASS
+ending_mrr_2026-08,293542.7000,293542.7000,PASS
+active_at_start_2026-08,8059.0000,8059.0000,PASS
+churn_rate_2026-08,0.0123,0.0123,PASS
+discount_cost_15plus_annual,50275.8000,50275.8000,PASS
+weighted_open_pipeline_mrr,5017.6000,5017.6000,PASS
