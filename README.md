@@ -139,8 +139,15 @@ raw CSV exports ──► clean_data.py ──► clean tables ──► run_sql
 
 **[View the interactive dashboards on Tableau Public](https://public.tableau.com/app/profile/lazar.mihajlovic/viz/KestrelFibreSalesAnalyticssyntheticdata/ExecutiveOverview)**
 
-Built in Tableau from the extracts in `dashboard/tableau/`, starting with an executive overview of the headline sales
-KPIs. The data model and calculated fields are documented in [docs/tableau_build_guide.md](docs/tableau_build_guide.md).
+Three dashboards, built in Tableau from the extracts in `dashboard/tableau/`:
+
+| Dashboard | Question | Views |
+|---|---|---|
+| Executive Overview | How is the business performing? | Eight headline KPIs; orders and ordered MRR by close month; a KPI trend picker; win rate by lead source (click a bar to filter the KPIs and monthly charts); a 6-month Holt-Winters forecast of total orders with an 80% interval (not filtered by lead source) |
+| Funnel & Process | Where are deals and orders lost? | Lost opportunities by stage and reason; stage conversion by lead source; pre-install cancel rate by install wait; average install wait by region and half-year |
+| Quality, Quota & Pricing | Do quota winners sell customers who stay? | Quota attainment by team (red = below quota); ordered MRR still billing at day 90; 90-day churn by lead source against the all-sources rate; win rate by discount; rep win rate against 90-day churn |
+
+The data model and calculated fields are documented in [docs/tableau_build_guide.md](docs/tableau_build_guide.md).
 
 ## 10. SQL Server warehouse and Power BI report
 
