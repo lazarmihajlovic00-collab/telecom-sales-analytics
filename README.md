@@ -177,42 +177,7 @@ except where labelled.
 - **Forecast**: a trend × seasonal-index model built entirely from formulas, shown next to the Python Holt-Winters forecast and the backtest table.
 - **Planner**: a reverse funnel. Enter a target MRR, and it calculates the orders, opportunities and leads needed by source, then the reps needed by team (including a new-starter ramp adjustment).
 
-## 12. Reproduce
-
-```bash
-pip install -r requirements.txt
-./run_all.sh                            # or run the steps one by one:
-python src/generate_synthetic_data.py   # raw data (seeded, deterministic)
-python src/clean_data.py                # clean data + docs/data_quality_log.md
-python src/run_sql.py                   # builds data/kestrel_sales.db, runs sql/*.sql
-python src/analysis.py                  # tests, forecast, figures, key_metrics.json
-python src/build_excel_dashboard.py     # Excel dashboard (open in Excel to calculate)
-python src/export_tableau.py            # Tableau extracts
-```
-
-## 13. Documentation
-
-| Document | What's in it |
-|---|---|
-| [docs/insights_memo.md](docs/insights_memo.md) | One-page memo to the Head of Sales: findings, recommended pilots, uncertainties |
-| [docs/kpi_definitions.md](docs/kpi_definitions.md) | Each KPI: formula, why it was chosen, how to read it, limitation, action |
-| [docs/data_dictionary.md](docs/data_dictionary.md) | Every column of the clean tables and Tableau extracts |
-| [docs/data_quality_log.md](docs/data_quality_log.md) | Every cleaning rule with row counts (auto-generated) |
-| [docs/synthetic_data_design.md](docs/synthetic_data_design.md) | How the data was generated and which effects were encoded |
-| [docs/tableau_build_guide.md](docs/tableau_build_guide.md) | Data model, calculated fields and layouts to rebuild the dashboard in Tableau |
-| [sql_server/README.md](sql_server/README.md) | SQL Server run order, expected output at each step, design decisions |
-| [docs/powerbi_build_guide.md](docs/powerbi_build_guide.md) | Power BI model, relationships, pages and the numbers each visual must show |
-
-## 14. What I would do first with real CRM data
-
-Validate the definitions with Sales Ops: what counts as a "won" deal, and when does quota credit happen? Then check
-lead-source attribution, which is usually the messiest field. Next, add activity data (calls and visits) so capacity
-planning can use real throughput, and replace the single forecast holdout with a rolling backtest.
-
----
-*Independent portfolio project by Lazar Mihajlović. Interactive version: [Tableau Public](https://public.tableau.com/app/profile/lazar.mihajlovic/viz/KestrelFibreSalesAnalyticssyntheticdata/ExecutiveOverview).*
-
-## 10. Power Query + PivotTable workbook
+## 12. Power Query + PivotTable workbook
 
 [`dashboard/Kestrel_PowerQuery_Pivot.xlsx`](dashboard/Kestrel_PowerQuery_Pivot.xlsx) repeats the core cleaning in
 Excel Power Query, straight from the **raw** exports in `data/raw/`. It removes duplicates and test records, parses
@@ -228,3 +193,41 @@ checks match, including 28,847 clean opportunities and 77,005 clean leads.
 The M code is in [`excel_power_query/queries/`](excel_power_query/queries), and the workbook is rebuilt with
 `excel_power_query\build_workbook.ps1` (Windows, Excel 2016+). Design decisions and a manual build walkthrough are in
 [docs/power_query_pivot_guide.md](docs/power_query_pivot_guide.md).
+
+## 13. Reproduce
+
+```bash
+pip install -r requirements.txt
+./run_all.sh                            # or run the steps one by one:
+python src/generate_synthetic_data.py   # raw data (seeded, deterministic)
+python src/clean_data.py                # clean data + docs/data_quality_log.md
+python src/run_sql.py                   # builds data/kestrel_sales.db, runs sql/*.sql
+python src/analysis.py                  # tests, forecast, figures, key_metrics.json
+python src/build_excel_dashboard.py     # Excel dashboard (open in Excel to calculate)
+python src/export_tableau.py            # Tableau extracts
+# Power Query + PivotTable workbook (Windows, Excel 2016+):
+# powershell -ExecutionPolicy Bypass -File excel_power_query\build_workbook.ps1
+```
+
+## 14. Documentation
+
+| Document | What's in it |
+|---|---|
+| [docs/insights_memo.md](docs/insights_memo.md) | One-page memo to the Head of Sales: findings, recommended pilots, uncertainties |
+| [docs/kpi_definitions.md](docs/kpi_definitions.md) | Each KPI: formula, why it was chosen, how to read it, limitation, action |
+| [docs/data_dictionary.md](docs/data_dictionary.md) | Every column of the clean tables and Tableau extracts |
+| [docs/data_quality_log.md](docs/data_quality_log.md) | Every cleaning rule with row counts (auto-generated) |
+| [docs/synthetic_data_design.md](docs/synthetic_data_design.md) | How the data was generated and which effects were encoded |
+| [docs/tableau_build_guide.md](docs/tableau_build_guide.md) | Data model, calculated fields and layouts to rebuild the dashboard in Tableau |
+| [sql_server/README.md](sql_server/README.md) | SQL Server run order, expected output at each step, design decisions |
+| [docs/powerbi_build_guide.md](docs/powerbi_build_guide.md) | Power BI model, relationships, pages and the numbers each visual must show |
+| [docs/power_query_pivot_guide.md](docs/power_query_pivot_guide.md) | Power Query design, PivotTables, reconciliation checks and a manual build walkthrough |
+
+## 15. What I would do first with real CRM data
+
+Validate the definitions with Sales Ops: what counts as a "won" deal, and when does quota credit happen? Then check
+lead-source attribution, which is usually the messiest field. Next, add activity data (calls and visits) so capacity
+planning can use real throughput, and replace the single forecast holdout with a rolling backtest.
+
+---
+*Independent portfolio project by Lazar Mihajlović. Interactive version: [Tableau Public](https://public.tableau.com/app/profile/lazar.mihajlovic/viz/KestrelFibreSalesAnalyticssyntheticdata/ExecutiveOverview).*
