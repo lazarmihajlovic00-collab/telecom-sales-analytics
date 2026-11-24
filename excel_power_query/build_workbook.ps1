@@ -60,6 +60,22 @@ function Load-QueryToTable($ws, [string]$queryName, [string]$tableName) {
     return $lo
 }
 
+# Writes a number into a cell. Setting Value2 to a double after strings were set through the same COM binder
+# fails in Windows PowerShell 5.1 ("Unable to cast System.Double to System.String"), so the number goes in
+# through Range.Formula, which Excel always parses in en-US whatever the Windows locale.
+function Set-Number($cell, [double]$value) {
+    $cell.Formula = $value.ToString('R', [Globalization.CultureInfo]::InvariantCulture)
+}
+
+# Sets a number format given in en-US notation. Windows PowerShell passes its own locale to Excel's COM calls,
+# and Excel reads NumberFormat in that locale: on a Windows with ',' as the decimal separator (e.g. sr-Latn-RS)
+# '0.0%' would become '#.#00%'. Calling the property with an explicit en-US culture keeps the format the same
+# everywhere; Excel still displays it with the user's own separators.
+$EnUs = [Globalization.CultureInfo]::GetCultureInfo('en-US')
+function Set-NumberFormat($obj, [string]$format) {
+    [void][System.__ComObject].InvokeMember('NumberFormat', [Reflection.BindingFlags]::SetProperty, $null, $obj, @($format), $EnUs)
+}
+
 function Set-Title($ws, [string]$cell, [string]$text, [int]$size = 12) {
     $r = $ws.Range($cell)
     $r.Value2 = $text
@@ -142,7 +158,7 @@ try {
     $pt1.PivotFields('lead_source').Orientation = $xlRowField
     $pt1.PivotFields('close_year').Orientation = $xlColumnField
     $df = $pt1.AddDataField($pt1.PivotFields('WinRate'), 'Win rate', $xlSum)
-    $df.NumberFormat = '0.0%'
+    Set-NumberFormat $df '0.0%'
 
     # 2. Ordered MRR by team and close year
     Set-Title $wsPivot 'J5' '2. Ordered MRR by team (won deals)'
@@ -151,7 +167,7 @@ try {
     $pt2.PivotFields('team').Orientation = $xlRowField
     $pt2.PivotFields('close_year').Orientation = $xlColumnField
     $df = $pt2.AddDataField($pt2.PivotFields('mrr_gbp'), "Ordered MRR ($Pound)", $xlSum)
-    $df.NumberFormat = "[`$$Pound-809]#,##0"
+    Set-NumberFormat $df "[`$$Pound-809]#,##0"
 
     # 3. Lost deals by reason and stage
     Set-Title $wsPivot 'B27' '3. Where and why deals are lost'
@@ -160,7 +176,7 @@ try {
     $pt3.PivotFields('lost_reason').Orientation = $xlRowField
     $pt3.PivotFields('stage').Orientation = $xlColumnField
     $df = $pt3.AddDataField($pt3.PivotFields('opp_id'), 'Lost deals', $xlCount)
-    $df.NumberFormat = '#,##0'
+    Set-NumberFormat $df '#,##0'
 
     # 4. Door-to-door win rate by discount
     Set-Title $wsPivot 'J27' '4. Door-to-Door: does a bigger discount win more deals?'
@@ -169,9 +185,9 @@ try {
     Set-Page $pt4 'is_closed' '1'
     $pt4.PivotFields('discount_pct').Orientation = $xlRowField
     $df = $pt4.AddDataField($pt4.PivotFields('is_closed'), 'Closed deals', $xlSum)
-    $df.NumberFormat = '#,##0'
+    Set-NumberFormat $df '#,##0'
     $df = $pt4.AddDataField($pt4.PivotFields('WinRate'), 'Win rate', $xlSum)
-    $df.NumberFormat = '0.0%'
+    Set-NumberFormat $df '0.0%'
     $wsPivot.Range('J45').Value2 = 'Win rate rises from 0% to 10% discount, then stops rising: discounts above 10% buy no extra wins (README finding 3).'
     $wsPivot.Range('J45').Font.Italic = $true
 
@@ -200,11 +216,11 @@ try {
     foreach ($r in (Import-Csv (Join-Path $SqlOut '03_win_rate_cycle_deal_size__channel_kpis.csv'))) {
         $row++
         $wsChecks.Cells.Item($row, 1).Value2 = $r.lead_source
-        $wsChecks.Cells.Item($row, 2).Value2 = [double]::Parse($r.win_rate, [Globalization.CultureInfo]::InvariantCulture)
+        Set-Number $wsChecks.Cells.Item($row, 2) ([double]::Parse($r.win_rate, [Globalization.CultureInfo]::InvariantCulture))
         $wsChecks.Cells.Item($row, 3).Formula = "=GETPIVOTDATA(`"Win rate`",$pt1Anchor,`"lead_source`",A$row)"
         $wsChecks.Cells.Item($row, 4).Formula = "=ROUND(C$row,3)-B$row"
         $wsChecks.Cells.Item($row, 5).Formula = "=IF(ABS(D$row)<0.0005,`"OK`",`"CHECK`")"
-        $wsChecks.Range("B${row}:D${row}").NumberFormat = '0.0%'
+        Set-NumberFormat $wsChecks.Range("B${row}:D${row}") '0.0%'
     }
 
     $row += 2
@@ -218,7 +234,7 @@ try {
         $row++
         $wsChecks.Cells.Item($row, 1).Value2 = $r.lost_at_stage
         $wsChecks.Cells.Item($row, 2).Value2 = $r.lost_reason
-        $wsChecks.Cells.Item($row, 3).Value2 = [int]$r.n
+        Set-Number $wsChecks.Cells.Item($row, 3) ([int]$r.n)
         $wsChecks.Cells.Item($row, 4).Formula = "=GETPIVOTDATA(`"Lost deals`",$pt3Anchor,`"stage`",A$row,`"lost_reason`",B$row)"
         $wsChecks.Cells.Item($row, 5).Formula = "=IF(C$row=D$row,`"OK`",`"CHECK`")"
     }
@@ -271,7 +287,7 @@ try {
 
     foreach ($ws in @($wsAbout, $wsPivot, $wsChecks, $wsDq, $wsOpp, $wsSet)) { $ws.Activate(); $xl.ActiveWindow.DisplayGridlines = $false }
     $wsPivot.Activate()
-    $wsPivot.Range('A1').Select()
+    [void]$wsPivot.Range('A1').Select()
     $xl.CalculateFull()
     $wb.Save()
 
