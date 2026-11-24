@@ -260,7 +260,7 @@ try {
         @('', 0),
         @('What it does', 12),
         @('Power Query reads the RAW CRM, HR and product exports in data\raw\ (with their deliberate defects) and cleans them in Excel:', 0),
-        @('removes duplicate and test records, parses ISO and UK (dd/mm/yyyy) dates, maps 15 region and 12 lead-source spellings to canonical values,', 0),
+        @('removes duplicate and test records, parses ISO and UK (dd/mm/yyyy) dates, maps 14 region and 12 lead-source spellings to canonical values,', 0),
         @('strips the pound sign from MRR stored as text, matches product names case-insensitively, recovers 54 impossible discounts from list price vs net MRR,', 0),
         @('labels blank loss reasons, flags impossible close dates, and merges lead, product and rep attributes into one fact table (tblOpportunities).', 0),
         @('', 0),
