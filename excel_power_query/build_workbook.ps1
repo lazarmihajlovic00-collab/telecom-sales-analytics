@@ -188,7 +188,7 @@ try {
     Set-NumberFormat $df '#,##0'
     $df = $pt4.AddDataField($pt4.PivotFields('WinRate'), 'Win rate', $xlSum)
     Set-NumberFormat $df '0.0%'
-    $wsPivot.Range('J45').Value2 = 'Win rate rises from 0% to 10% discount, then stops rising: discounts above 10% buy no extra wins (README finding 3).'
+    $wsPivot.Range('J45').Value2 = 'Win rate jumps from about 40% (0-5% discount) to 48% at 10%. Discounts of 15-20% win no more deals than 10% (README finding 3).'
     $wsPivot.Range('J45').Font.Italic = $true
 
     # Slicers connected to all four PivotTables
